@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "big_img": "assets/images/bg/company-gallery-big-01.png",
+    "small_img": "assets/images/bg/company-gallery-sm-01.png"
+  },
+  {
+    "id": 2,
+    "big_img": "assets/images/bg/company-gallery-big-02.png",
+    "small_img": "assets/images/bg/company-gallery-sm-02.png"
+  },
+  {
+    "id": 3,
+    "big_img": "assets/images/bg/company-gallery-big-03.png",
+    "small_img": "assets/images/bg/company-gallery-sm-03.png"
+  },
+  {
+    "id": 4,
+    "big_img": "assets/images/bg/company-gallery-big-04.png",
+    "small_img": "assets/images/bg/company-gallery-sm-04.png"
+  },
+  {
+    "id": 5,
+    "big_img": "assets/images/bg/company-gallery-big-05.png",
+    "small_img": "assets/images/bg/company-gallery-sm-05.png"
+  }
+]

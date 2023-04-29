@@ -1,0 +1,124 @@
+[
+    {
+        "id":1,
+        "applicent_name":"Mr. Willium Jacson",
+        "applicent_img":"/assets/images/bg/employee-img1.png",
+        "applicent_university":"Internation Colliegate University",
+        "applicent_designation":"Teaching Assistant",
+        "applicent_exprience":" 2+ Years",
+        "applicent_salary":"$800/ Per Month",
+        "applicent_privious_compnay_name":"Colliegate Ltd",
+        "applied_date":"02 April, 2023"
+    },
+    {
+        "id":2,
+        "applicent_name":"Robert Williamson",
+        "applicent_img":"/assets/images/bg/employee-img2.png",
+        "applicent_university":"London University",
+        "applicent_designation":"UI/UX Designer",
+        "applicent_exprience":" 2+ Years",
+        "applicent_salary":"$800/ Per Month",
+        "applicent_privious_compnay_name":"UI/UX Company Ltd",
+        "applied_date":"02 April, 2023"
+    },
+    {
+        "id":3,
+        "applicent_name":"Robertson Harry",
+        "applicent_img":"/assets/images/bg/employee-img3.png",
+        "applicent_university":"Royals Republic University",
+        "applicent_designation":"Teaching Assistant",
+        "applicent_exprience":" 2+ Years",
+        "applicent_salary":"$800/ Per Month",
+        "applicent_privious_compnay_name":"Bistro.Tech Ltd",
+        "applied_date":"02 April, 2023"
+    },
+    {
+        "id":4,
+        "applicent_name":"Hari Jonson",
+        "applicent_img":"/assets/images/bg/employee-img4.png",
+        "applicent_university":"Bistro Mycol University",
+        "applicent_designation":"Teaching Assistant",
+        "applicent_exprience":" 2+ Years",
+        "applicent_salary":"$800/ Per Month",
+        "applicent_privious_compnay_name":"Elite Author ",
+        "applied_date":"02 April, 2023"
+    },
+    {
+        "id":5,
+        "applicent_name":"Mrs. Jordan Harry",
+        "applicent_img":"/assets/images/bg/employee-img5.png",
+        "applicent_university":"Internation Colliegate University",
+        "applicent_designation":"Teaching Assistant",
+        "applicent_exprience":" 2+ Years",
+        "applicent_salary":"$800/ Per Month",
+        "applicent_privious_compnay_name":"Colliegate Ltd",
+        "applied_date":"02 April, 2023"
+    },
+    {
+        "id":6,
+        "applicent_name":"Mr. Willium Jacson",
+        "applicent_img":"/assets/images/bg/employee-img6.png",
+        "applicent_university":"Internation Colliegate University",
+        "applicent_designation":"Teaching Assistant",
+        "applicent_exprience":" 2+ Years",
+        "applicent_salary":"$800/ Per Month",
+        "applicent_privious_compnay_name":"Colliegate Ltd",
+        "applied_date":"02 April, 2023"
+    },
+    {
+        "id":7,
+        "applicent_name":"Mr. Willium Jacson",
+        "applicent_img":"/assets/images/bg/employee-img1.png",
+        "applicent_university":"Internation Colliegate University",
+        "applicent_designation":"Teaching Assistant",
+        "applicent_exprience":" 2+ Years",
+        "applicent_salary":"$800/ Per Month",
+        "applicent_privious_compnay_name":"Colliegate Ltd",
+        "applied_date":"02 April, 2023"
+    },
+    {
+        "id":8,
+        "applicent_name":"Mr. Willium Jacson",
+        "applicent_img":"/assets/images/bg/employee-img1.png",
+        "applicent_university":"Internation Colliegate University",
+        "applicent_designation":"Teaching Assistant",
+        "applicent_exprience":" 2+ Years",
+        "applicent_salary":"$800/ Per Month",
+        "applicent_privious_compnay_name":"Colliegate Ltd",
+        "applied_date":"02 April, 2023"
+    },
+    {
+        "id":9,
+        "applicent_name":"Mr. Willium Jacson",
+        "applicent_img":"assets/images/bg/employee-img1.png",
+        "applicent_university":"Internation Colliegate University",
+        "applicent_designation":"Teaching Assistant",
+        "applicent_exprience":" 2+ Years",
+        "applicent_salary":"$800/ Per Month",
+        "applicent_privious_compnay_name":"Colliegate Ltd",
+        "applied_date":"02 April, 2023"
+    },
+    {
+        "id":10,
+        "applicent_name":"Mr. Willium Jacson",
+        "applicent_img":"assets/images/bg/employee-img1.png",
+        "applicent_university":"Internation Colliegate University",
+        "applicent_designation":"Teaching Assistant",
+        "applicent_exprience":" 2+ Years",
+        "applicent_salary":"$800/ Per Month",
+        "applicent_privious_compnay_name":"Colliegate Ltd",
+        "applied_date":"02 April, 2023"
+    },
+    {
+        "id":11,
+        "applicent_name":"Mr. Willium Jacson",
+        "applicent_img":"assets/images/bg/employee-img1.png",
+        "applicent_university":"Internation Colliegate University",
+        "applicent_designation":"Teaching Assistant",
+        "applicent_exprience":" 2+ Years",
+        "applicent_salary":"$800/ Per Month",
+        "applicent_privious_compnay_name":"Colliegate Ltd",
+        "applied_date":"02 April, 2023"
+    }
+    
+]

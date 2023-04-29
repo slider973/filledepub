@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/icon/account-finance.svg",
+    "jon_title": "Account & Finance",
+    "available_job": "44"
+  },
+  {
+    "id": 2,
+    "image": "assets/images/icon/technology.svg",
+    "jon_title": "Technology",
+    "available_job": "04"
+  },
+  {
+    "id": 3,
+    "image": "assets/images/icon/medical.svg",
+    "jon_title": "Medical & Nurse",
+    "available_job": "22"
+  },
+  {
+    "id": 4,
+    "image": "assets/images/icon/marketing.svg",
+    "jon_title": "Marketing & Sales",
+    "available_job": "15"
+  },
+  {
+    "id": 5,
+    "image": "assets/images/icon/design-job.svg",
+    "jon_title": "Design Jobs",
+    "available_job": "17"
+  },
+  {
+    "id": 6,
+    "image": "assets/images/icon/transportation.svg",
+    "jon_title": "Transportation",
+    "available_job": ""
+  },
+  {
+    "id": 7,
+    "image": "assets/images/icon/devlopment.svg",
+    "jon_title": "Development",
+    "available_job": "27"
+  },
+  {
+    "id": 8,
+    "image": "assets/images/icon/receotionist.svg",
+    "jon_title": "Receptionist Job",
+    "available_job": "40"
+  },
+  {
+    "id": 9,
+    "image": "assets/images/icon/medical.svg",
+    "jon_title": "Non-Profit Orag.",
+    "available_job": "15"
+  },
+  {
+    "id": 10,
+    "image": "assets/images/icon/architect.svg",
+    "jon_title": "Architect Jobs",
+    "available_job": "14"
+  },
+  {
+    "id": 11,
+    "image": "assets/images/icon/civil.svg",
+    "jon_title": "Civil Engineering",
+    "available_job": "19"
+  },
+  {
+    "id": 12,
+    "image": "assets/images/icon/medical.svg",
+    "jon_title": "Electrician/ Repair",
+    "available_job": "89"
+  },
+  {
+    "id": 13,
+    "image": "assets/images/icon/mechanical.svg",
+    "jon_title": "Mechanical Engg.",
+    "available_job": "185"
+  },
+  {
+    "id": 14,
+    "image": "assets/images/icon/insurance.svg",
+    "jon_title": "Insurance Jobs",
+    "available_job": "10"
+  },
+  {
+    "id": 15,
+    "image": "assets/images/icon/design-job.svg",
+    "jon_title": "Web Applications",
+    "available_job": "894"
+  },
+  {
+    "id": 16,
+    "image": "assets/images/icon/education.svg",
+    "jon_title": "Education",
+    "available_job": "51"
+  },
+  {
+    "id": 17,
+    "image": "assets/images/icon/education.svg",
+    "jon_title": "Administration",
+    "available_job": "51"
+  },
+  {
+    "id": 18,
+    "image": "assets/images/icon/pharmaceutucals.svg",
+    "jon_title": "Pharmaceuticals",
+    "available_job": "51"
+  },
+  {
+    "id": 19,
+    "image": "assets/images/icon/education.svg",
+    "jon_title": "Diploma Jobs",
+    "available_job": "51"
+  },
+  {
+    "id": 20,
+    "image": "assets/images/icon/car-driving.svg",
+    "jon_title": "Car Driving",
+    "available_job": "51"
+  }
+]

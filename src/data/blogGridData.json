@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/blog/blog-img-01.png",
+    "date_day": "02",
+    "date_month": "March",
+    "comment_number": "03",
+    "post_author": "Mr. Jack Frank",
+    "post_title": "To Make Your Smartness & Catch Your Bright Dream.",
+    "standard_img": "assets/images/blog/blog-img-st-01.png",
+    "standard_post_title": "To Make Your Smartness & Catch Your Bright Dream.",
+    "standard_post_description": "To make yourself smart and catch your bright dream, it involves a combination of factors that contribute to overall personal growth and success. These include continuous learning, exercising your brain, developing good habits, maintaining a positive attitude,support."
+  },
+  {
+    "id": 2,
+    "image": "assets/images/blog/blog-img-02.png",
+    "date_day": "02",
+    "date_month": "March",
+    "comment_number": "11",
+    "post_author": "Mr. Jack Frank",
+    "post_title": "Be Confident Your Dream & Struggle About Your Bright Dream.",
+    "standard_img": "assets/images/blog/blog-img-st-02.png",
+    "standard_post_title": "How To Improve Your Interview Question & Easy Answering Step By Step.",
+    "standard_post_description": "To make yourself smart and catch your bright dream, it involves a combination of factors that contribute to overall personal growth and success. These include continuous learning, exercising your brain, developing good habits, maintaining a positive attitude,support."
+  },
+  {
+    "id": 3,
+    "image": "assets/images/blog/blog-img-03.png",
+    "date_day": "03",
+    "date_month": "March",
+    "comment_number": "03",
+    "post_author": "Mr. Jack Frank",
+    "post_title": "How To Be Confident When Your Job Viva In Online, You Get To Know.",
+    "standard_img": "assets/images/blog/blog-img-st-03.png",
+    "standard_post_title": "How To Be Confident When Your Job Viva In Online, You Get To Know.",
+    "standard_post_description": "To make yourself smart and catch your bright dream, it involves a combination of factors that contribute to overall personal growth and success. These include continuous learning, exercising your brain, developing good habits, maintaining a positive attitude,support."
+  },
+  {
+    "id": 4,
+    "image": "assets/images/blog/blog-img-04.png",
+    "date_day": "04",
+    "date_month": "April",
+    "comment_number": "03",
+    "post_author": "Mr. Jack Frank",
+    "post_title": "To Find Out Your Job Location With Discussion Among Others."
+  },
+  {
+    "id": 5,
+    "image": "assets/images/blog/blog-img-05.png",
+    "date_day": "05",
+    "date_month": "May",
+    "comment_number": "05",
+    "post_author": "Mr. Jack Frank",
+    "post_title": "Be Awareness Your Job Interviewing & Be Punctual Your Time."
+  },
+  {
+    "id": 6,
+    "image": "assets/images/blog/blog-img-06.png",
+    "date_day": "06",
+    "date_month": "June",
+    "comment_number": "06",
+    "post_author": "Mr. Jack Frank",
+    "post_title": "How To Improve Your Interview Question & Easy Answering Step By Step."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "img": "assets/images/icon/account-finance.svg",
+    "title": "Account & Finance",
+    "job_available": 44
+  },
+  {
+    "id": 2,
+    "img": "assets/images/icon/technology.svg",
+    "title": "Technology",
+    "job_available": 12
+  },
+  {
+    "id": 3,
+    "img": "assets/images/icon/medical.svg",
+    "title": "Medical & Nurse",
+    "job_available": 13
+  },
+  {
+    "id": 4,
+    "img": "assets/images/icon/marketing.svg",
+    "title": "Marketing & Sales",
+    "job_available": 12
+  },
+  {
+    "id": 5,
+    "img": "assets/images/icon/design-job.svg",
+    "title": "Design Jobs",
+    "job_available": 10
+  },
+  {
+    "id": 6,
+    "img": "assets/images/icon/transportation.svg",
+    "title": "Transportation",
+    "job_available": 124
+  },
+  {
+    "id": 7,
+    "img": "assets/images/icon/devlopment.svg",
+    "title": "Development",
+    "job_available": 158
+  },
+  {
+    "id": 8,
+    "img": "assets/images/icon/receotionist.svg",
+    "title": "Receptionist Job",
+    "job_available": 12
+  },
+  {
+    "id": 9,
+    "img": "assets/images/icon/non-profit-org.svg",
+    "title": "Non-Profit Orag.",
+    "job_available": 12
+  },
+  {
+    "id": 10,
+    "img": "assets/images/icon/architect.svg",
+    "title": "Architect Jobs",
+    "job_available": 12
+  }
+]

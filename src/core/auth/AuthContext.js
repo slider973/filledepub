@@ -5,7 +5,7 @@ import {
 } from 'firebase/auth';
 import firebase_app from '@/src/firebase/config';
 
-console.log('firebase_app', firebase_app)
+
 const auth = getAuth(firebase_app);
 
 export const AuthContext = React.createContext({});
@@ -21,6 +21,7 @@ export const AuthContextProvider = (
 
     React.useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
+
             if (user) {
                 setUser(user);
             } else {
