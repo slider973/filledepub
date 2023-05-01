@@ -138,7 +138,7 @@ function CompanyProfiles() {
               </div>
               <div className="col-md-6">
                 <div className="form-inner mb-25">
-                  <label htmlFor="website">Website Link*</label>
+                  <label htmlFor="website">Lien de votre site web*</label>
                   <div className="input-area">
                     <img src="/assets/images/icon/website-2.svg" alt="" />
                     <input

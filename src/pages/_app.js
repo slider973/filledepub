@@ -1,11 +1,17 @@
-import { useEffect } from "react";
+import {useEffect} from "react";
 
 import "../styles/main.css";
-function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    import("../../public/assets/js/bootstrap.bundle.min.js");
-  });
-  return <Component {...pageProps} />;
+import {AuthContextProvider} from "../core/auth/AuthContext";
+
+function MyApp({Component, pageProps}) {
+    useEffect(() => {
+        import("../../public/assets/js/bootstrap.bundle.min.js");
+    });
+    return (
+        <AuthContextProvider>
+            <Component {...pageProps} />;
+        </AuthContextProvider>
+    )
 }
 
 export default MyApp;

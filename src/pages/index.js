@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import {useRouter} from "next/router";
 import {useEffect} from "react";
@@ -12,22 +13,14 @@ import Review1 from "../components/review/Review1";
 import TopRecruiters1 from "../components/top-recruiters/TopRecruiters";
 import TrustedCompany1 from "../components/trusted-company/TrustedCompany1";
 import WorkProcess1 from "../components/work-process/WorkProcess1";
-import {useAuthContext} from "../core/auth/AuthContext";
+import {withAuth} from "../hoc/withAuth";
 
-export default function Home() {
-    const {user} = useAuthContext()
-    const router = useRouter()
+const Home = () => {
     const currentPage = useRouter().pathname;
     useEffect(() => {
         console.log('currentPage', currentPage)
         document.body.className = currentPage === "/" ? "bg-wight" : "";
     });
-    useEffect(() => {
-        if (user == null) {
-        console.dir(user)
-            router.push("/register")
-        }
-    }, [user])
     return (
         <>
             <Header1/>
@@ -43,4 +36,5 @@ export default function Home() {
             <Footer/>
         </>
     );
-}
+};
+export default withAuth(Home);

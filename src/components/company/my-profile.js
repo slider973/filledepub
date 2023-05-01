@@ -57,7 +57,7 @@ function MyProfile() {
               </div>
               <div className="col-md-6">
                 <div className="form-inner mb-25">
-                  <label>Website Link*</label>
+                  <label>Lien de votre site web*</label>
                   <div className="input-area">
                     <img src="assets/images/icon/website-2.svg" alt="" />
                     <input type="text" placeholder="https://example.com" />
@@ -115,7 +115,7 @@ function MyProfile() {
                 <div className="form-inner mb-50">
                   <label>Description*</label>
                   <textarea
-                    placeholder="Write something about yourself.........."
+                    placeholder="Écrire quelque chose à propos de vous-même.........."
                     defaultValue={""}
                   />
                 </div>

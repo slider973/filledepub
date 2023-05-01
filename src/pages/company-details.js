@@ -39,7 +39,7 @@ function CompanyDetails() {
                   <div className="websitet-link">
                     <p>
                       <img src="assets/images/icon/web-5.svg" alt="" />
-                      Website Link:
+                      Lien de votre site web:
                     </p>
                     <a href="#">www.example24.com</a>
                   </div>

@@ -43,7 +43,7 @@ function CandidateLayout({ children }) {
               <div className="col-lg-3">
                 <div className="dashboard-sidebar">
                   <CandidateMenu />
-                  <RecentActivies />
+              {/*    <RecentActivies />*/}
                 </div>
               </div>
             )}

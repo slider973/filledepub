@@ -1,10 +1,12 @@
+'use client'
 import Link from "next/link";
 import * as PropTypes from "prop-types";
 import React from "react";
 import {ErrorMessage, Field, Form, Formik} from "formik";
 import {getValidate} from "./validate";
-import {router} from "next/client";
 import {signUp} from "../../firebase/signUp";
+import {useRouter} from 'next/router';
+import addData from "../../firebase/addData";
 
 
 const initialValues = {
@@ -17,24 +19,45 @@ const initialValues = {
     isAgree: false,
 };
 
-function handleOnSubmit() {
+function handleOnSubmit(router) {
     return async (values, {setSubmitting}) => {
-        const { result, error } = await signUp(values.email, values.password);
+        const createTalent = (uid) => ({
+            uid,
+            lastname: values.lastname,
+            username: values.username,
+            firstname: values.firstname,
+            email: values.email,
+            password: values.password,
+            profileType: "talents",
+        })
+        const {result, error} = await signUp(values.email, values.password);
 
         if (error) {
             return console.log(error)
         }
-        console.log(result)
-        return router.push("/")
+        const user = createTalent(result.user.uid)
+        addData(user.profileType, user.uid, {
+            lastname: user.lastname,
+            username: user.username,
+            firstname: user.firstname,
+            email: user.email,
+        }).then(
+            () => {
+                setSubmitting(false);
+                return router.push("/candidates-dashboard/my-profile")
+            }
+        )
+
     };
 }
 
 function FormTalentRegistration(props) {
+    const router = useRouter();
     return (
         <Formik
             initialValues={initialValues}
             validate={getValidate()}
-            onSubmit={handleOnSubmit()}
+            onSubmit={handleOnSubmit(router)}
         >
             {({
                   values,
@@ -96,7 +119,7 @@ function FormTalentRegistration(props) {
                                         name="username"
                                         placeholder="robertjonson"
                                     />
-                                    <ErrorMessage name="username" component="div" />
+                                    <ErrorMessage name="username" component="div"/>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +137,7 @@ function FormTalentRegistration(props) {
                                         name="email"
                                         placeholder="info@example.com"
                                     />
-                                    <ErrorMessage name="email" component="div" />
+                                    <ErrorMessage name="email" component="div"/>
                                 </div>
                             </div>
                         </div>
@@ -163,7 +186,7 @@ function FormTalentRegistration(props) {
                                             : "bi bi-eye-slash  bi-eye"
                                     }
                                 />
-                                <ErrorMessage name="confirmpassword" component="div" />
+                                <ErrorMessage name="confirmpassword" component="div"/>
                             </div>
                         </div>
                         <div className="col-md-12">
