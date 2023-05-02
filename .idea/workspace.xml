@@ -5,27 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53a03b6c-a5a2-4d97-a829-d0955e89153e" name="Changes" comment="first commit for the project">
-      <change afterPath="$PROJECT_DIR$/src/Forms/FormLogin/FormLogin.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Forms/FormSocialNetwork.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Forms/FormTalentEditResume/FormTalentEditResumeBaseDetail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Forms/FormTalentEditResume/FormTalentProfile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Forms/FormUpdateTalentProfile/FormUpdateTalentProfile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firebase/addData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firebase/getData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/withAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/PEARLLL PNG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/header1-logo.back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/candidates/Questionnaire.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/candidates-dashboard/edit-profile-sav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/createEmotionCache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/material-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/FormCompanyRegistration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/FormCompanyRegistration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forms/FormTalentRegistration/FormTalentRegistration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/FormTalentRegistration/FormTalentRegistration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/candidates/CandidateMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/candidates/CandidateMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/company/CompanyProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/company/CompanyProfile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/company/my-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/company/my-profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CandidateLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/CandidateLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/header1-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/header1-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/FormTalentEditResume/FormTalentProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/FormTalentEditResume/FormTalentProfile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forms/FormUpdateTalentProfile/FormUpdateTalentProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forms/FormUpdateTalentProfile/FormUpdateTalentProfile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/job_list.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/job_list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/trandingJob.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/trandingJob.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/candidates-dashboard/edit-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/candidates-dashboard/edit-profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/candidates-dashboard/my-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/candidates-dashboard/my-profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/company-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/company-details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,34 +46,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.15.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.25&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jonathan/Documents/Projet/Perso/Lazzarotto/sylvie/filledepub&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\jlemaine\\Desktop\\filledepub\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/jonathan/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4345.14/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "16.15.1",
+    "javascript.nodejs.core.library.typings.version": "16.18.25",
+    "last_opened_file_path": "/Users/jonathan/Documents/Projet/Perso/Lazzarotto/sylvie/filledepub",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\jlemaine\\Desktop\\filledepub\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/jonathan/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4345.14/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/pages/candidates-dashboard" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/images" />
       <recent name="$PROJECT_DIR$/src/Forms" />
       <recent name="C:\Users\jlemaine\Desktop\filledepub\src\Forms\FormTalentRegistration" />
       <recent name="C:\Users\jlemaine\Desktop\filledepub\src" />
@@ -133,7 +136,7 @@
       <workItem from="1682763950240" duration="34856000" />
       <workItem from="1682861932494" duration="53000" />
       <workItem from="1682861996103" duration="308000" />
-      <workItem from="1682862358086" duration="6496000" />
+      <workItem from="1682862358086" duration="21704000" />
     </task>
     <task id="LOCAL-00001" summary="init new projet">
       <created>1682703568109</created>

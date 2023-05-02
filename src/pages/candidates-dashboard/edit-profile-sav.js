@@ -20,13 +20,13 @@ const createOption = (label) => ({
 
 
 function EditProfile() {
-
     const auth = useAuthContext()
     const [files, setFiles] = useState([]);
     const [inputValue, setInputValue] = React.useState("");
     const [value, setValue] = React.useState([]);
     const [startDate, setStartDate] = React.useState(new Date());
     const [image, setImage] = useState("");
+
 
     const fileInputRef = useRef(null);
 

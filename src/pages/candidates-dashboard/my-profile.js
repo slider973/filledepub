@@ -17,7 +17,7 @@ function MyProfile() {
                 ...result,
                 uid: auth.user.uid,
                 years: result.years || '',
-                location: result.location || '',
+                place: result.location || '',
                 phone: result.phone || '',
                 email: result.email || '',
                 website: result.website || '',

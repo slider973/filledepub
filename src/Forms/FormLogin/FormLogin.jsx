@@ -3,9 +3,10 @@ import React, {useState} from "react";
 import * as PropTypes from "prop-types";
 import {Formik} from "formik";
 import signIn from "../../firebase/signIn";
-import {router} from "next/client";
+import {useRouter} from "next/router";
 
 const FormLogin = props => {
+    const router = useRouter();
     const [loginUser, setLoginUser] = useState({
         email: "",
         password: "",

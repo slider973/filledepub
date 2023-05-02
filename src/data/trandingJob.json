@@ -2,61 +2,61 @@
   {
     "id": 1,
     "img": "assets/images/icon/account-finance.svg",
-    "title": "Account & Finance",
+    "title": "Comptabilité & Finance",
     "job_available": 44
   },
   {
     "id": 2,
     "img": "assets/images/icon/technology.svg",
-    "title": "Technology",
+    "title": "Technologie",
     "job_available": 12
   },
   {
     "id": 3,
     "img": "assets/images/icon/medical.svg",
-    "title": "Medical & Nurse",
+    "title": "Médical & Infirmier",
     "job_available": 13
   },
   {
     "id": 4,
     "img": "assets/images/icon/marketing.svg",
-    "title": "Marketing & Sales",
+    "title": "Marketing & Ventes",
     "job_available": 12
   },
   {
     "id": 5,
     "img": "assets/images/icon/design-job.svg",
-    "title": "Design Jobs",
+    "title": "Emplois en design",
     "job_available": 10
   },
   {
     "id": 6,
     "img": "assets/images/icon/transportation.svg",
-    "title": "Transportation",
+    "title": "Transport",
     "job_available": 124
   },
   {
     "id": 7,
     "img": "assets/images/icon/devlopment.svg",
-    "title": "Development",
+    "title": "Développement",
     "job_available": 158
   },
   {
     "id": 8,
     "img": "assets/images/icon/receotionist.svg",
-    "title": "Receptionist Job",
+    "title": "Emplois de réceptionniste",
     "job_available": 12
   },
   {
     "id": 9,
     "img": "assets/images/icon/non-profit-org.svg",
-    "title": "Non-Profit Orag.",
+    "title": "Organisations à but non lucratif",
     "job_available": 12
   },
   {
     "id": 10,
     "img": "assets/images/icon/architect.svg",
-    "title": "Architect Jobs",
+    "title": "Emplois d'architecte",
     "job_available": 12
   }
 ]

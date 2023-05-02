@@ -2,244 +2,194 @@ import DatePicker from "react-datepicker";
 import CreatableSelect from "react-select/creatable";
 import * as PropTypes from "prop-types";
 import React from "react";
+import {Box, Button, Checkbox, Step, StepLabel, Stepper, Typography} from "@mui/material";
+import {label} from "yet-another-react-lightbox/core";
+import {useFormik} from "formik";
+import Questionnaire from "../../components/candidates/Questionnaire";
 
 const components = {
     DropdownIndicator: null,
     IndicatorsContainer: () => null,
 };
 
+const groupeQuestion1 = [
+    {
+        question:
+            "Lorsque tu commences un grand projet qui doit être rendu dans une semaine",
+        answers: [
+            "Prends-tu le temps de faire une liste des différentes choses à réaliser et de l’ordre dans lequel elles doivent être effectuées ?",
+            "Tu te lances immédiatement ?",
+        ],
+    }, {
+        question:
+            "Es-tu plus susceptible de faire :",
+        answers: [
+            "Des éloges ?",
+            "Des reproches ?",
+        ],
+
+    },
+    {
+        question:
+            "En général, tu :",
+        answers: [
+            "Exprime librement tes sentiments ?",
+            "Garde tes sentiments pour toi ?",
+        ],
+
+    }, {
+        question:
+            "Lorsque ce que tu dois faire est prévu depuis longtemps, tu :",
+        answers: [
+            "Apprécie de pouvoir t'organiser en conséquence ?",
+            "Trouve cela désagréable d’être ainsi lié ?",
+        ],
+
+    }, {
+        question:
+            "Penses-tu que c’est un plus grand défaut d’être :",
+        answers: [
+            "Antipathique ?",
+            "Déraisonnable ?",
+        ],
+
+    }
+    , {
+        question:
+            "Lorsque des inconnus te remarquent :",
+        answers: [
+            "Tu te sents mal à l’aise ?",
+            "Cela ne te déranges du tout ?",
+        ],
+
+    },
+    {
+        question:
+            "Si tu étais sur le point d'accomplir une tâche, à quel argument serais-tu le plus sensible ?",
+        answers: [
+            "C’est ce qu'on attend vraiment de toi ?",
+            "C’est ce qui te semble le plus logique ?",
+        ],
+
+    },
+];
+
 function FormTalentProfile(props) {
-    return <form className="edit-profile-form profile-form">
-        <div className="row">
-            <div className="col-md-6">
-                <div className="form-inner mb-25">
-                    <label htmlFor="fathername">Father’s Name*</label>
-                    <div className="input-area">
-                        <img src="/assets/images/icon/user-2.svg" alt=""/>
-                        <input
-                            type="text"
-                            id="fathername"
-                            name="fathername"
-                            placeholder="Mr. Norman Frankly"
-                        />
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-6">
-                <div className="form-inner mb-25">
-                    <label htmlFor="mothername">Mother's Name*</label>
-                    <div className="input-area">
-                        <img src="/assets/images/icon/user-2.svg " alt=""/>
-                        <input
-                            type="text"
-                            id="mothername"
-                            name="mothername"
-                            placeholder="Mrs. Marcoline Frankly"
-                        />
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-6">
-                <div className="form-inner mb-25">
-                    <label htmlFor="datepicker5">Date of Birth*</label>
-                    <div className="input-area">
-                        <img src="/assets/images/icon/calender2.svg" alt=""/>
-                        <DatePicker
-                            selected={props.selected}
-                            onChange={props.onChange}
-                            placeholderText="Date of Birth"
-                            className="calendar"
-                        />
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-6">
-                <div className="form-inner mb-25">
-                    <label htmlFor="nid">National Id*</label>
-                    <div className="input-area">
-                        <img src="/assets/images/icon/nid.svg" alt=""/>
-                        <input
-                            type="text"
-                            id="nid"
-                            name="nid "
-                            placeholder="0988 *** *** *** **"
-                        />
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-6">
-                <div className="form-inner mb-25">
-                    <div className="salary-wrap">
-                        <label className="label" htmlFor="preAddress">
-                            Present Address*
-                        </label>
-                        <div className="checkbox-container">
-                            <ul>
-                                <li>
-                                    <label className="containerss">
-                                        <input type="checkbox"/>
-                                        <span className="checkmark"/>
-                                        <span className="text">
-                                    Same as permanent Address
-                                  </span>
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="input-area">
-                        <img src="/assets/images/icon/home-2.svg" alt=""/>
-                        <input
-                            type="text"
-                            id="preAddress"
-                            name="preAddress "
-                            placeholder="Your Address Here..."
-                        />
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-6">
-                <div className="form-inner mb-25">
-                    <label htmlFor="perAddress">Permanent Address*</label>
-                    <div className="input-area">
-                        <img src="/assets/images/icon/home-2.svg" alt=""/>
-                        <input
-                            type="text"
-                            id="perAddress"
-                            name="perAddress"
-                            placeholder="Your Address Here..."
-                        />
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-6">
-                <div className="form-inner mb-25">
-                    <label>Marital Status*</label>
-                    <div className="input-area">
-                        <img src="/assets/images/icon/marital-2.svg" alt=""/>
-                        <select className="select1">
-                            <option value={0}>Single</option>
-                            <option value={1}>Married</option>
-                            <option value={2}>Widowed</option>
-                            <option value={4}>Divorced</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-6">
-                <div className="form-inner mb-25">
-                    <label>Gender*</label>
-                    <div className="input-area">
-                        <img src="/assets/images/icon/gender.svg " alt=""/>
-                        <select className="select1">
-                            <option value={0}>Female</option>
-                            <option value={1}>Male</option>
-                            <option value={2}>Custom</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-6">
-                <div className="form-inner mb-25">
-                    <label>Religion*</label>
-                    <div className="input-area">
-                        <img src="/assets/images/icon/religion.svg" alt=""/>
-                        <select className="select1">
-                            <option value={0}>Christianity</option>
-                            <option value={1}>Islam</option>
-                            <option value={2}>Buddhism</option>
-                            <option value={3}>Sikhism</option>
-                            <option value={4}>Judaism</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-6">
-                <div className="form-inner mb-25">
-                    <label>Blood Group*</label>
-                    <div className="input-area">
-                        <img src="/assets/images/icon/blood.svg" alt=""/>
-                        <select className="select1">
-                            <option value={0}>A+</option>
-                            <option value={1}>A-</option>
-                            <option value={2}>B+</option>
-                            <option value={3}>B-</option>
-                            <option value={4}>AB+</option>
-                            <option value={5}>AB-</option>
-                            <option value={6}>O+</option>
-                            <option value={7}>O-</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-6">
-                <div className="form-inner mb-25">
-                    <label htmlFor="hight">Height*</label>
-                    <div className="input-area">
-                        <img src="/assets/images/icon/hight.svg" alt=""/>
-                        <input
-                            type="text"
-                            id="hight"
-                            name="hight"
-                            placeholder="5.6'"
-                        />
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-6">
-                <div className="form-inner mb-25">
-                    <label htmlFor="weight">Weight*</label>
-                    <div className="input-area">
-                        <img src="/assets/images/icon/weight.svg" alt=""/>
-                        <input
-                            type="text"
-                            id="weight"
-                            name="weight "
-                            placeholder={56}
-                        />
-                    </div>
-                </div>
-            </div>
-            <div className="skills-row">
-                <div className="row">
-                    <div className="col-lg-12">
-                        <div className="section-title2 mb-20">
-                            <h5>Your Skills:</h5>
-                        </div>
-                    </div>
-                    <div className="col-md-12">
-                        <div className="form-inner mb-25">
-                            <label>Special Skills*</label>
-                            <CreatableSelect
-                                components={components}
-                                inputValue={props.inputValue}
-                                isClearable
-                                isMulti
-                                menuIsOpen={false}
-                                styles={props.styles}
-                                onChange={props.onChange1}
-                                onInputChange={props.onInputChange
-                                }
-                                onKeyDown={props.onKeyDown}
-                                placeholder="Type Tag and press enter..."
-                                value={props.value}
-                            />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-12">
-                <div className="form-inner">
-                    <button
-                        className="primry-btn-2 lg-btn w-unset"
-                        type="submit"
-                    >
-                        Update Change
-                    </button>
-                </div>
-            </div>
-        </div>
-    </form>;
+    const formik = useFormik({
+        initialValues: {
+            email: 'foobar@example.com',
+            password: 'foobar',
+        },
+        onSubmit: (values) => {
+            alert(JSON.stringify(values, null, 2));
+        },
+    });
+    const steps = ['Groupe de question 1', 'Groupe de question 2', 'Groupe de question 3'];
+    const [activeStep, setActiveStep] = React.useState(0);
+    const [skipped, setSkipped] = React.useState(new Set());
+
+    const isStepOptional = (step) => {
+        return step === 1;
+    };
+
+    const isStepSkipped = (step) => {
+        return skipped.has(step);
+    };
+
+    const handleNext = () => {
+        let newSkipped = skipped;
+        if (isStepSkipped(activeStep)) {
+            newSkipped = new Set(newSkipped.values());
+            newSkipped.delete(activeStep);
+        }
+
+        setActiveStep((prevActiveStep) => prevActiveStep + 1);
+        setSkipped(newSkipped);
+    };
+
+    const handleBack = () => {
+        setActiveStep((prevActiveStep) => prevActiveStep - 1);
+    };
+
+    const handleSkip = () => {
+        if (!isStepOptional(activeStep)) {
+            // You probably want to guard against something like this,
+            // it should never occur unless someone's actively trying to break something.
+            throw new Error("You can't skip a step that isn't optional.");
+        }
+
+        setActiveStep((prevActiveStep) => prevActiveStep + 1);
+        setSkipped((prevSkipped) => {
+            const newSkipped = new Set(prevSkipped.values());
+            newSkipped.add(activeStep);
+            return newSkipped;
+        });
+    };
+
+
+    return <form className="edit-profile-form profile-form  mb-60">
+        <Box mb={5} textAlign="center">
+            <Typography variant="h6">
+                Quelle est la réponse (A ou B) qui exprime le mieux ta manière habituelle d’agir
+                ?</Typography>
+        </Box>
+
+        <Box sx={{width: '100%'}}>
+            <Stepper activeStep={activeStep}>
+                {steps.map((label, index) => {
+                    const stepProps = {};
+                    const labelProps = {};
+                    if (isStepSkipped(index)) {
+                        stepProps.completed = false;
+                    }
+                    return (
+                        <Step key={label} {...stepProps}>
+                            <StepLabel {...labelProps}>{label}</StepLabel>
+                        </Step>
+                    );
+                })}
+            </Stepper>
+            {activeStep === steps.length ? (
+                <React.Fragment>
+                    <Typography sx={{mt: 2, mb: 1}}>
+                        All steps completed - you&apos;re finished
+                    </Typography>
+                    <Box sx={{display: 'flex', flexDirection: 'row', pt: 2}}>
+                        <Box sx={{flex: '1 1 auto'}}/>
+                        <Button onClick={handleReset}>Reset</Button>
+                    </Box>
+                </React.Fragment>
+            ) : (
+                <React.Fragment>
+                    {
+                        activeStep === 0 && <Questionnaire questions={groupeQuestion1}/>
+                    }
+                    <Box sx={{display: 'flex', flexDirection: 'row', pt: 2}}>
+                        <Button
+                            color="inherit"
+                            disabled={activeStep === 0}
+                            onClick={handleBack}
+                            sx={{mr: 1}}
+                        >
+                            Retour
+                        </Button>
+                        <Box sx={{flex: '1 1 auto'}}/>
+                        {isStepOptional(activeStep) && (
+                            <Button color="inherit" onClick={handleSkip} sx={{mr: 1}}>
+                                Passer
+                            </Button>
+                        )}
+
+                        <Button onClick={handleNext}>
+                            {activeStep === steps.length - 1 ? 'Terminer' : 'Suivant'}
+                        </Button>
+                    </Box>
+                </React.Fragment>
+            )}
+        </Box>
+    </form>
+
+
 }
 
 export default FormTalentProfile;

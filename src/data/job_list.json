@@ -2,97 +2,97 @@
   {
     "id": 1,
     "image": "assets/images/icon/account-finance.svg",
-    "jon_title": "Account & Finance",
+    "jon_title": "Comptabilité & Finance",
     "available_job": "44"
   },
   {
     "id": 2,
     "image": "assets/images/icon/technology.svg",
-    "jon_title": "Technology",
+    "jon_title": "Technologie",
     "available_job": "04"
   },
   {
     "id": 3,
     "image": "assets/images/icon/medical.svg",
-    "jon_title": "Medical & Nurse",
+    "jon_title": "Médical & Infirmier",
     "available_job": "22"
   },
   {
     "id": 4,
     "image": "assets/images/icon/marketing.svg",
-    "jon_title": "Marketing & Sales",
+    "jon_title": "Marketing & Ventes",
     "available_job": "15"
   },
   {
     "id": 5,
     "image": "assets/images/icon/design-job.svg",
-    "jon_title": "Design Jobs",
+    "jon_title": "Emplois en design",
     "available_job": "17"
   },
   {
     "id": 6,
     "image": "assets/images/icon/transportation.svg",
-    "jon_title": "Transportation",
+    "jon_title": "Transport",
     "available_job": ""
   },
   {
     "id": 7,
     "image": "assets/images/icon/devlopment.svg",
-    "jon_title": "Development",
+    "jon_title": "Développement",
     "available_job": "27"
   },
   {
     "id": 8,
     "image": "assets/images/icon/receotionist.svg",
-    "jon_title": "Receptionist Job",
+    "jon_title": "Emplois de réceptionniste",
     "available_job": "40"
   },
   {
     "id": 9,
     "image": "assets/images/icon/medical.svg",
-    "jon_title": "Non-Profit Orag.",
+    "jon_title": "Organisations à but non lucratif",
     "available_job": "15"
   },
   {
     "id": 10,
     "image": "assets/images/icon/architect.svg",
-    "jon_title": "Architect Jobs",
+    "jon_title": "Emplois d'architecte",
     "available_job": "14"
   },
   {
     "id": 11,
     "image": "assets/images/icon/civil.svg",
-    "jon_title": "Civil Engineering",
+    "jon_title": "Génie civil",
     "available_job": "19"
   },
   {
     "id": 12,
     "image": "assets/images/icon/medical.svg",
-    "jon_title": "Electrician/ Repair",
+    "jon_title": "Électricien / Réparation",
     "available_job": "89"
   },
   {
     "id": 13,
     "image": "assets/images/icon/mechanical.svg",
-    "jon_title": "Mechanical Engg.",
+    "jon_title": "Génie mécanique",
     "available_job": "185"
   },
   {
     "id": 14,
     "image": "assets/images/icon/insurance.svg",
-    "jon_title": "Insurance Jobs",
+    "jon_title": "Emplois en assurance",
     "available_job": "10"
   },
   {
     "id": 15,
     "image": "assets/images/icon/design-job.svg",
-    "jon_title": "Web Applications",
+    "jon_title": "Applications Web",
     "available_job": "894"
   },
   {
     "id": 16,
     "image": "assets/images/icon/education.svg",
-    "jon_title": "Education",
+    "jon_title": "Éducation",
     "available_job": "51"
   },
   {
@@ -104,19 +104,19 @@
   {
     "id": 18,
     "image": "assets/images/icon/pharmaceutucals.svg",
-    "jon_title": "Pharmaceuticals",
+    "jon_title": "Pharmaceutique",
     "available_job": "51"
   },
   {
     "id": 19,
     "image": "assets/images/icon/education.svg",
-    "jon_title": "Diploma Jobs",
+    "jon_title": "Emplois de diplôme",
     "available_job": "51"
   },
   {
     "id": 20,
     "image": "assets/images/icon/car-driving.svg",
-    "jon_title": "Car Driving",
+    "jon_title": "Conduite automobile",
     "available_job": "51"
   }
 ]

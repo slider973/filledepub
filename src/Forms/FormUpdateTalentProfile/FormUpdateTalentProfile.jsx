@@ -9,7 +9,7 @@ function FormUpdateTalentProfile(props) {
         lastname: profile.lastname,
         firstname: profile.firstname,
         years: profile.years,
-        location: profile.location,
+        place: profile.location,
         language: profile.language,
         phone: profile.phone,
         email: profile.email,
