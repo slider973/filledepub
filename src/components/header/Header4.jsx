@@ -103,174 +103,178 @@ function Header4() {
               </div>
             </div>
             <ul className="menu-list">
-              <li>
+              <li >
                 <Link legacyBehavior href="/">
-                  <a>Accueil</a>
+                  <a className={
+                    currentRoute === "/"
+                        ? "active"
+                        : ""
+                  }>Accueil</a>
                 </Link>
               </li>
-              <li className="menu-item-has-children">
-                <a href="#" className="drop-down">
-                  Find Jobs
-                </a>
-                <i
-                  className={
-                    state.activeMenu === "job-list"
-                      ? "bi bi-dash active dropdown-icon"
-                      : "bi bi-plus dropdown-icon"
-                  }
-                  onClick={() => handleMenu("job-list")}
-                />
-                <ul
-                  className={
-                    state.activeMenu === "job-list"
-                      ? "sub-menu d-block"
-                      : "sub-menu"
-                  }
-                >
-                  <li>
-                    <Link legacyBehavior href="/category">
-                      <a>Job Category</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/job-listing1">
-                      <a>Job Listing</a>
-                    </Link>
-                  </li>
+              {/*<li className="menu-item-has-children">*/}
+              {/*  <a href="#" className="drop-down">*/}
+              {/*    Find Jobs*/}
+              {/*  </a>*/}
+              {/*  <i*/}
+              {/*    className={*/}
+              {/*      state.activeMenu === "job-list"*/}
+              {/*        ? "bi bi-dash active dropdown-icon"*/}
+              {/*        : "bi bi-plus dropdown-icon"*/}
+              {/*    }*/}
+              {/*    onClick={() => handleMenu("job-list")}*/}
+              {/*  />*/}
+              {/*  <ul*/}
+              {/*    className={*/}
+              {/*      state.activeMenu === "job-list"*/}
+              {/*        ? "sub-menu d-block"*/}
+              {/*        : "sub-menu"*/}
+              {/*    }*/}
+              {/*  >*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/category">*/}
+              {/*        <a>Job Category</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/job-listing1">*/}
+              {/*        <a>Job Listing</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
 
-                  <li>
-                    <Link legacyBehavior href="/job-details">
-                      <a>Job Details</a>
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <a href="#" className="drop-down">
-                  Pages
-                </a>
-                <i
-                  className={
-                    state.activeMenu === "pages"
-                      ? "bi bi-dash active dropdown-icon"
-                      : "bi bi-plus dropdown-icon"
-                  }
-                  onClick={() => handleMenu("pages")}
-                />
-                <ul
-                  className={
-                    state.activeMenu === "pages"
-                      ? "sub-menu d-block"
-                      : "sub-menu"
-                  }
-                >
-                  <li>
-                    <Link legacyBehavior href="/candidates-dashboard/dashboard">
-                      <a>Candidate Dashboard</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/job-post">
-                      <a>Post A Jobs</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/pricing-plan">
-                      <a>Pricing Plan</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/faq">
-                      <a>FAQ</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/error">
-                      <a>Error</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/login">
-                      <a>Login</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/register">
-                      <a>Register</a>
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <a href="#">Employers</a>
-                <i
-                  className={
-                    state.activeMenu === "company"
-                      ? "bi bi-dash active dropdown-icon"
-                      : "bi bi-plus dropdown-icon"
-                  }
-                  onClick={() => handleMenu("company")}
-                />
-                <ul
-                  className={
-                    state.activeMenu === "company"
-                      ? "sub-menu d-block"
-                      : "sub-menu"
-                  }
-                >
-                  <li>
-                    <Link legacyBehavior href="/company-listing1">
-                      <a>Company Listing</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/company-details">
-                      <a>Company Details</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/company/company-dashboard">
-                      <a>Company Dashboard</a>
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <a href="#">Blog</a>
-                <i
-                  className={
-                    state.activeMenu === "blog"
-                      ? "bi bi-dash active dropdown-icon"
-                      : "bi bi-plus dropdown-icon"
-                  }
-                  onClick={() => handleMenu("blog")}
-                />
-                <ul
-                  className={
-                    state.activeMenu === "blog"
-                      ? "sub-menu d-block"
-                      : "sub-menu"
-                  }
-                >
-                  <li>
-                    <Link legacyBehavior href="/blog-grid">
-                      <a>Blog Grid</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/blog-right-sidebar">
-                      <a>Blog Right Sidebar</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="/blog-details">
-                      <a>Blog Details</a>
-                    </Link>
-                  </li>
-                </ul>
-              </li>
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/job-details">*/}
+              {/*        <a>Job Details</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*  </ul>*/}
+              {/*</li>*/}
+              {/*<li className="menu-item-has-children">*/}
+              {/*  <a href="#" className="drop-down">*/}
+              {/*    Pages*/}
+              {/*  </a>*/}
+              {/*  <i*/}
+              {/*    className={*/}
+              {/*      state.activeMenu === "pages"*/}
+              {/*        ? "bi bi-dash active dropdown-icon"*/}
+              {/*        : "bi bi-plus dropdown-icon"*/}
+              {/*    }*/}
+              {/*    onClick={() => handleMenu("pages")}*/}
+              {/*  />*/}
+              {/*  <ul*/}
+              {/*    className={*/}
+              {/*      state.activeMenu === "pages"*/}
+              {/*        ? "sub-menu d-block"*/}
+              {/*        : "sub-menu"*/}
+              {/*    }*/}
+              {/*  >*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/candidates-dashboard/dashboard">*/}
+              {/*        <a>Candidate Dashboard</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/job-post">*/}
+              {/*        <a>Post A Jobs</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/pricing-plan">*/}
+              {/*        <a>Pricing Plan</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/faq">*/}
+              {/*        <a>FAQ</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/error">*/}
+              {/*        <a>Error</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/login">*/}
+              {/*        <a>Login</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/register">*/}
+              {/*        <a>Register</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*  </ul>*/}
+              {/*</li>*/}
+              {/*<li className="menu-item-has-children">*/}
+              {/*  <a href="#">Employers</a>*/}
+              {/*  <i*/}
+              {/*    className={*/}
+              {/*      state.activeMenu === "company"*/}
+              {/*        ? "bi bi-dash active dropdown-icon"*/}
+              {/*        : "bi bi-plus dropdown-icon"*/}
+              {/*    }*/}
+              {/*    onClick={() => handleMenu("company")}*/}
+              {/*  />*/}
+              {/*  <ul*/}
+              {/*    className={*/}
+              {/*      state.activeMenu === "company"*/}
+              {/*        ? "sub-menu d-block"*/}
+              {/*        : "sub-menu"*/}
+              {/*    }*/}
+              {/*  >*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/company-listing1">*/}
+              {/*        <a>Company Listing</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/company-details">*/}
+              {/*        <a>Company Details</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/company/company-dashboard">*/}
+              {/*        <a>Company Dashboard</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*  </ul>*/}
+              {/*</li>*/}
+              {/*<li className="menu-item-has-children">*/}
+              {/*  <a href="#">Blog</a>*/}
+              {/*  <i*/}
+              {/*    className={*/}
+              {/*      state.activeMenu === "blog"*/}
+              {/*        ? "bi bi-dash active dropdown-icon"*/}
+              {/*        : "bi bi-plus dropdown-icon"*/}
+              {/*    }*/}
+              {/*    onClick={() => handleMenu("blog")}*/}
+              {/*  />*/}
+              {/*  <ul*/}
+              {/*    className={*/}
+              {/*      state.activeMenu === "blog"*/}
+              {/*        ? "sub-menu d-block"*/}
+              {/*        : "sub-menu"*/}
+              {/*    }*/}
+              {/*  >*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/blog-grid">*/}
+              {/*        <a>Blog Grid</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/blog-right-sidebar">*/}
+              {/*        <a>Blog Right Sidebar</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*    <li>*/}
+              {/*      <Link legacyBehavior href="/blog-details">*/}
+              {/*        <a>Blog Details</a>*/}
+              {/*      </Link>*/}
+              {/*    </li>*/}
+              {/*  </ul>*/}
+              {/*</li>*/}
               <li>
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="#">
                   <a>Contact</a>
                 </Link>
               </li>

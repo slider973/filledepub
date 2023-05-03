@@ -6,6 +6,7 @@ import FeaturedJobs from "../components/candidates/FeaturedJobs";
 import RecentActivies from "../components/candidates/RecentActivies";
 import Footer from "../components/footer/Footer";
 import LayoutHeader from "../components/header/LayoutHeader";
+import {withAuth} from "../hoc/withAuth";
 
 function CandidateLayout({ children }) {
   const currentPath = useRouter().pathname;
@@ -62,4 +63,4 @@ function CandidateLayout({ children }) {
   );
 }
 
-export default CandidateLayout;
+export default withAuth(CandidateLayout);
