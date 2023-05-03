@@ -25,7 +25,7 @@ function Home5Counter() {
                       </h3>
                       <span>K+</span>
                     </div>
-                    <p>Total Recruiters</p>
+                    <p>Total des recruteurs</p>
                   </div>
                 </div>
                 <div className="counter-single">
@@ -45,7 +45,7 @@ function Home5Counter() {
                       </h3>
                       <span>K+</span>
                     </div>
-                    <p>Daily User Visited</p>
+                    <p>Visiteurs quotidiens</p>
                   </div>
                 </div>
                 <div className="counter-single">
@@ -65,7 +65,7 @@ function Home5Counter() {
                       </h3>
                       <span>K+</span>
                     </div>
-                    <p>Daily Job Posted</p>
+                    <p>Offres d'emploi publiées quotidiennement</p>
                   </div>
                 </div>
                 <div className="counter-single">
@@ -85,7 +85,7 @@ function Home5Counter() {
                       </h3>
                       <span>K+</span>
                     </div>
-                    <p>Total Recruiters</p>
+                    <p>Total des recruteurs</p>
                   </div>
                 </div>
               </div>

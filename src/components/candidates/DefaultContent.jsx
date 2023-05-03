@@ -10,7 +10,7 @@ function DefaultContent() {
             <img src="/assets/images/bg/author1.png" alt="" />
           </div>
           <div className="author-content">
-            <span>Hello, I’m</span>
+            <span>Bonjour je m'appelle</span>
             <h4>JACOLINE Frankly</h4>
           </div>
         </div>

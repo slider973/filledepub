@@ -21,7 +21,7 @@ function Index() {
   return (
     <>
         <Head>
-        <title>PEARL- Job Portal NextJs Template</title>
+        <title>PEARL- Les métiers de la communication</title>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
         <meta

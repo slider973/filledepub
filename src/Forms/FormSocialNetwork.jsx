@@ -3,7 +3,7 @@ import React from "react";
 function FormSocialNetwork() {
     return <div className="form-wrapper">
         <div className="section-title">
-            <h5>Social Network:</h5>
+            <h5>Réseau social:</h5>
         </div>
         <form className="profile-form">
             <div className="row">
@@ -115,7 +115,7 @@ function FormSocialNetwork() {
                             className="primry-btn-2 lg-btn w-unset"
                             type="submit"
                         >
-                            Update Social Link
+                            Mettre à jour
                         </button>
                     </div>
                 </div>

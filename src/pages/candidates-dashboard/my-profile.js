@@ -43,7 +43,7 @@ function MyProfile() {
                     </div>
                     <div className="form-wrapper">
                         <div className="section-title">
-                            <h5>Social Network:</h5>
+                            <h5>Réseau social:</h5>
                         </div>
                         <form className="profile-form">
                             <div className="row">

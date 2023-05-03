@@ -23,7 +23,7 @@ function Home4Counter() {
                   </h3>
                   <span>K+</span>
                 </div>
-                <p>Total Recruiters</p>
+                <p>Total de recruteurs</p>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ function Home4Counter() {
                   </h3>
                   <span>K+</span>
                 </div>
-                <p>Daily User Visited</p>
+                <p>Visiteurs quotidiens</p>
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ function Home4Counter() {
                   </h3>
                   <span>K+</span>
                 </div>
-                <p>Daily Job Posted</p>
+                <p>Offres d'emploi publiées quotidiennement</p>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ function Home4Counter() {
                   </h3>
                   <span>K+</span>
                 </div>
-                <p>Total Recruiters</p>
+                <p>Client satisfait</p>
               </div>
             </div>
           </div>

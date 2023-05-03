@@ -49,7 +49,7 @@ function FeaturedJobs() {
       <div className="col-lg-12">
         <div className="featured-jobs-area">
           <div className="section-title">
-            <h4>Featured Jobs:</h4>
+            <h4>Top Emplois</h4>
           </div>
         </div>
       </div>

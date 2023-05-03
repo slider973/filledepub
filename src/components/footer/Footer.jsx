@@ -158,7 +158,10 @@ function Footer() {
         </div>
         <div className="footer-btm">
           <div className="footer-logo">
-            <img src="/assets/images/footer-logo.svg" alt="" />
+            <img style={{
+              width: '167px',
+                height: '146px'
+            }} src="/assets/images/PEARLLL%20PNG.png" alt="" />
           </div>
           <div className="row align-items-center">
             <div className="col-lg-6 d-flex justify-content-lg-start justify-content-center">

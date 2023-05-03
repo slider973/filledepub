@@ -84,7 +84,11 @@ function Header4() {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="/assets/images/header1-logo.svg"
+                  src="/assets/images/PEARLLL PNG.png"
+                  style={{
+                    width: "154px",
+                    height: "100px",
+                  }}
                 />
               </a>
             </Link>
@@ -103,13 +107,13 @@ function Header4() {
               </div>
             </div>
             <ul className="menu-list">
-              <li >
+              <li className={
+                currentRoute === "/"
+                    ? "active"
+                    : ""
+              }>
                 <Link legacyBehavior href="/">
-                  <a className={
-                    currentRoute === "/"
-                        ? "active"
-                        : ""
-                  }>Accueil</a>
+                  <a >Accueil</a>
                 </Link>
               </li>
               {/*<li className="menu-item-has-children">*/}
