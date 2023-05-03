@@ -9,16 +9,16 @@ function Home4Feature() {
           <div className="col-12 d-flex flex-wrap align-items-end justify-content-md-between justify-content-start gap-3">
             <div className="section-title1">
               <h2>
-                <span>Featured</span> Job List
+                <span>Liste des top </span> emplois
               </h2>
               <p>
-                To choose your trending job dream &amp; to make future bright.
+                Pour choisir l'emploi tendance de vos rêves &amp; afin de rendre votre avenir brillant.
               </p>
             </div>
             <div className="explore-btn">
               <Link legacyBehavior href="/job-listing1">
                 <a>
-                  Explore More
+                  Voir plus
                   <span>
                     <img src="assets/images/icon/explore-elliose.svg" alt="" />
                   </span>
@@ -104,7 +104,7 @@ function Home4Feature() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>
@@ -186,7 +186,7 @@ function Home4Feature() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>
@@ -267,7 +267,7 @@ function Home4Feature() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>
@@ -350,7 +350,7 @@ function Home4Feature() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>

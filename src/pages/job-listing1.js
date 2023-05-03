@@ -532,7 +532,7 @@ function JobListing1() {
                                     alt=""
                                   />
                                 </span>
-                                Apply Now
+                                Postulez maintenant
                               </a>
                             </Link>
                           </div>
@@ -604,7 +604,7 @@ function JobListing1() {
                                     alt=""
                                   />
                                 </span>
-                                Apply Now
+                                Postulez maintenant
                               </a>
                             </Link>
                           </div>
@@ -676,7 +676,7 @@ function JobListing1() {
                                     alt=""
                                   />
                                 </span>
-                                Apply Now
+                                Postulez maintenant
                               </a>
                             </Link>
                           </div>
@@ -748,7 +748,7 @@ function JobListing1() {
                                     alt=""
                                   />
                                 </span>
-                                Apply Now
+                                Postulez maintenant
                               </a>
                             </Link>
                           </div>
@@ -821,7 +821,7 @@ function JobListing1() {
                                     alt=""
                                   />
                                 </span>
-                                Apply Now
+                                Postulez maintenant
                               </a>
                             </Link>
                           </div>
@@ -894,7 +894,7 @@ function JobListing1() {
                                     alt=""
                                   />
                                 </span>
-                                Apply Now
+                                Postulez maintenant
                               </a>
                             </Link>
                           </div>
@@ -1019,7 +1019,7 @@ function JobListing1() {
                                       alt=""
                                     />
                                   </span>
-                                  Apply Now
+                                  Postulez maintenant
                                 </a>
                               </Link>
                             </div>
@@ -1111,7 +1111,7 @@ function JobListing1() {
                                       alt=""
                                     />
                                   </span>
-                                  Apply Now
+                                  Postulez maintenant
                                 </a>
                               </Link>
                             </div>
@@ -1203,7 +1203,7 @@ function JobListing1() {
                                       alt=""
                                     />
                                   </span>
-                                  Apply Now
+                                  Postulez maintenant
                                 </a>
                               </Link>
                             </div>
@@ -1298,7 +1298,7 @@ function JobListing1() {
                                       alt=""
                                     />
                                   </span>
-                                  Apply Now
+                                  Postulez maintenant
                                 </a>
                               </Link>
                             </div>
@@ -1391,7 +1391,7 @@ function JobListing1() {
                                       alt=""
                                     />
                                   </span>
-                                  Apply Now
+                                  Postulez maintenant
                                 </a>
                               </Link>
                             </div>
@@ -1485,7 +1485,7 @@ function JobListing1() {
                                       alt=""
                                     />
                                   </span>
-                                  Apply Now
+                                  Postulez maintenant
                                 </a>
                               </Link>
                             </div>

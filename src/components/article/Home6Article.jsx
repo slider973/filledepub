@@ -206,7 +206,7 @@ function Home6Article() {
                 <h4>
                   <Link legacyBehavior href="/blog-details">
                     <a>
-                      If You Are A talented People, Make Sure Your Technology
+                      If You Are A talented Personnes, Make Sure Your Technology
                       Part.
                     </a>
                   </Link>

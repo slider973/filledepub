@@ -84,7 +84,7 @@ function Home2LatesJob() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>
@@ -145,7 +145,7 @@ function Home2LatesJob() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>
@@ -209,7 +209,7 @@ function Home2LatesJob() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>
@@ -270,7 +270,7 @@ function Home2LatesJob() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>
@@ -331,7 +331,7 @@ function Home2LatesJob() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>
@@ -392,7 +392,7 @@ function Home2LatesJob() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>

@@ -53,9 +53,9 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "16.15.1",
-    "javascript.nodejs.core.library.typings.version": "16.18.25",
-    "last_opened_file_path": "/Users/jonathan/Documents/Projet/Perso/Lazzarotto/sylvie/filledepub",
+    "javascript.nodejs.core.library.configured.version": "18.15.0",
+    "javascript.nodejs.core.library.typings.version": "18.15.0",
+    "last_opened_file_path": "C:/Users/jlemaine/Desktop/filledepub/public/assets/images/bg",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,6 +74,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jlemaine\Desktop\filledepub\public\assets\images\bg" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/pages/candidates-dashboard" />
     </key>
@@ -137,6 +138,7 @@
       <workItem from="1682861932494" duration="53000" />
       <workItem from="1682861996103" duration="308000" />
       <workItem from="1682862358086" duration="21704000" />
+      <workItem from="1683135177336" duration="8597000" />
     </task>
     <task id="LOCAL-00001" summary="init new projet">
       <created>1682703568109</created>

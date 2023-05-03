@@ -98,7 +98,7 @@ function Home5TopRecruiters() {
                           <a>New Sky-Mistro</a>
                         </Link>
                       </h5>
-                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 46 People</p>
+                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 46 Personnes</p>
                       <p>
                         <img
                           src="assets/images/icon/home5-location-icon.svg"
@@ -139,7 +139,7 @@ function Home5TopRecruiters() {
                           <a>UI.UX Company Ltd</a>
                         </Link>
                       </h5>
-                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 42 People</p>
+                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 42 Personnes</p>
                       <p>
                         <img
                           src="assets/images/icon/home5-location-icon.svg"
@@ -181,7 +181,7 @@ function Home5TopRecruiters() {
                         </Link>
                       </h5>
 
-                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 47 People</p>
+                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 47 Personnes</p>
                       <p>
                         <img
                           src="assets/images/icon/home5-location-icon.svg"
@@ -222,7 +222,7 @@ function Home5TopRecruiters() {
                           <a>Germain Group Ltd</a>
                         </Link>
                       </h5>
-                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 47 People</p>
+                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 47 Personnes</p>
                       <p>
                         <img
                           src="assets/images/icon/home5-location-icon.svg"
@@ -263,7 +263,7 @@ function Home5TopRecruiters() {
                           <a>Tech-Bath Company</a>
                         </Link>
                       </h5>
-                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 76 People</p>
+                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 76 Personnes</p>
                       <p>
                         <img
                           src="assets/images/icon/home5-location-icon.svg"
@@ -304,7 +304,7 @@ function Home5TopRecruiters() {
                           <a>Bistro.Hub Ltd</a>
                         </Link>
                       </h5>
-                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 36 People</p>
+                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 36 Personnes</p>
                       <p>
                         <img
                           src="assets/images/icon/home5-location-icon.svg"
@@ -345,7 +345,7 @@ function Home5TopRecruiters() {
                           <a>Neuro Science Ltd</a>
                         </Link>
                       </h5>
-                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 26 People</p>
+                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 26 Personnes</p>
                       <p>
                         <img
                           src="assets/images/icon/home5-location-icon.svg"
@@ -386,7 +386,7 @@ function Home5TopRecruiters() {
                           <a>Wiestrong Industry</a>
                         </Link>
                       </h5>
-                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 56 People</p>
+                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 56 Personnes</p>
                       <p>
                         <img
                           src="assets/images/icon/home5-location-icon.svg"
@@ -427,7 +427,7 @@ function Home5TopRecruiters() {
                           <a>New Sky-Mistro</a>
                         </Link>
                       </h5>
-                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 18 People</p>
+                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 18 Personnes</p>
                       <p>
                         <img
                           src="assets/images/icon/home5-location-icon.svg"
@@ -468,7 +468,7 @@ function Home5TopRecruiters() {
                           <a>UI.UX Company Ltd</a>
                         </Link>
                       </h5>
-                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 19 People</p>
+                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 19 Personnes</p>
                       <p>
                         <img
                           src="assets/images/icon/home5-location-icon.svg"
@@ -509,7 +509,7 @@ function Home5TopRecruiters() {
                           <a>Norland Company</a>
                         </Link>
                       </h5>
-                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 98 People</p>
+                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 98 Personnes</p>
                       <p>
                         <img
                           src="assets/images/icon/home5-location-icon.svg"
@@ -550,7 +550,7 @@ function Home5TopRecruiters() {
                           <a>Germain Group Ltd</a>
                         </Link>
                       </h5>
-                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 86 People</p>
+                      <p><img src="assets/images/icon/person-dark.svg" alt=""/> 86 Personnes</p>
                       <p>
                         <img
                           src="assets/images/icon/home5-location-icon.svg"

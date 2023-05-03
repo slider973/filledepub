@@ -137,7 +137,7 @@ function ContactPageContent() {
             <div className="row g-lg-4 gy-5">
               <div className="col-lg-6">
                 <div className="contect-content">
-                  <h4>Need Any Help? Contact Us</h4>
+                  <h4>Need Any Help? Nous contacter</h4>
                   <p>
                     Alternatively you can also check for the Company email,
                     phone number and address in the official website.

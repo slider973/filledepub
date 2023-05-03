@@ -98,7 +98,7 @@ function TopRecruiters() {
                       </p>
                       <p>
                         <img src="assets/images/icon/person-2.svg" alt="" /> 45
-                        People
+                        Personnes
                       </p>
                     </div>
                   </div>
@@ -145,7 +145,7 @@ function TopRecruiters() {
                       </p>
                       <p>
                         <img src="assets/images/icon/person-2.svg" alt="" /> 32
-                        People
+                        Personnes
                       </p>
                     </div>
                   </div>
@@ -192,7 +192,7 @@ function TopRecruiters() {
                       </p>
                       <p>
                         <img src="assets/images/icon/person-2.svg" alt="" /> 35
-                        People
+                        Personnes
                       </p>
                     </div>
                   </div>
@@ -239,7 +239,7 @@ function TopRecruiters() {
                       </p>
                       <p>
                         <img src="assets/images/icon/person-2.svg" alt="" /> 55
-                        People
+                        Personnes
                       </p>
                     </div>
                   </div>
@@ -286,7 +286,7 @@ function TopRecruiters() {
                       </p>
                       <p>
                         <img src="assets/images/icon/person-2.svg" alt="" /> 45
-                        People
+                        Personnes
                       </p>
                     </div>
                   </div>
@@ -333,7 +333,7 @@ function TopRecruiters() {
                       </p>
                       <p>
                         <img src="assets/images/icon/person-2.svg" alt="" /> 32
-                        People
+                        Personnes
                       </p>
                     </div>
                   </div>
@@ -380,7 +380,7 @@ function TopRecruiters() {
                       </p>
                       <p>
                         <img src="assets/images/icon/person-2.svg" alt="" /> 35
-                        People
+                        Personnes
                       </p>
                     </div>
                   </div>
@@ -427,7 +427,7 @@ function TopRecruiters() {
                       </p>
                       <p>
                         <img src="assets/images/icon/person-2.svg" alt="" /> 55
-                        People
+                        Personnes
                       </p>
                     </div>
                   </div>
@@ -474,7 +474,7 @@ function TopRecruiters() {
                       </p>
                       <p>
                         <img src="assets/images/icon/person-2.svg" alt="" /> 45
-                        People
+                        Personnes
                       </p>
                     </div>
                   </div>
@@ -521,7 +521,7 @@ function TopRecruiters() {
                       </p>
                       <p>
                         <img src="assets/images/icon/person-2.svg" alt="" /> 32
-                        People
+                        Personnes
                       </p>
                     </div>
                   </div>
@@ -568,7 +568,7 @@ function TopRecruiters() {
                       </p>
                       <p>
                         <img src="assets/images/icon/person-2.svg" alt="" /> 35
-                        People
+                        Personnes
                       </p>
                     </div>
                   </div>
@@ -615,7 +615,7 @@ function TopRecruiters() {
                       </p>
                       <p>
                         <img src="assets/images/icon/person-2.svg" alt="" /> 55
-                        People
+                        Personnes
                       </p>
                     </div>
                   </div>

@@ -90,7 +90,7 @@ function Feature1() {
                             alt=""
                           />
                         </span>
-                        Apply Now
+                        Postulez maintenant
                       </a>
                     </Link>
                   </div>
@@ -155,7 +155,7 @@ function Feature1() {
                             alt=""
                           />
                         </span>
-                        Apply Now
+                        Postulez maintenant
                       </a>
                     </Link>
                   </div>
@@ -220,7 +220,7 @@ function Feature1() {
                             alt=""
                           />
                         </span>
-                        Apply Now
+                        Postulez maintenant
                       </a>
                     </Link>
                   </div>
@@ -285,7 +285,7 @@ function Feature1() {
                             alt=""
                           />
                         </span>
-                        Apply Now
+                        Postulez maintenant
                       </a>
                     </Link>
                   </div>
@@ -350,7 +350,7 @@ function Feature1() {
                             alt=""
                           />
                         </span>
-                        Apply Now
+                        Postulez maintenant
                       </a>
                     </Link>
                   </div>
@@ -415,7 +415,7 @@ function Feature1() {
                             alt=""
                           />
                         </span>
-                        Apply Now
+                        Postulez maintenant
                       </a>
                     </Link>
                   </div>

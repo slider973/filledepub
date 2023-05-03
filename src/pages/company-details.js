@@ -76,7 +76,7 @@ function CompanyDetails() {
               <div className="row">
                 <div className="col-lg-8">
                   <div className="company-details-content">
-                    <h5>About Company</h5>
+                    <h5>À propos de nous</h5>
                     <p>
                       A software company is a business that develops and sells
                       computer software. Some software companies specialize in a
@@ -182,7 +182,7 @@ function CompanyDetails() {
                           <span>Member Since:</span> 03 April, 1982.
                         </li>
                         <li>
-                          <span>Company size:</span> 40 People.
+                          <span>Company size:</span> 40 Personnes.
                         </li>
                         <li>
                           <span>Completed Job:</span> 08.
@@ -291,7 +291,7 @@ function CompanyDetails() {
                               alt=""
                             />
                           </span>
-                          Apply Now
+                          Postulez maintenant
                         </a>
                       </Link>
                     </div>
@@ -377,7 +377,7 @@ function CompanyDetails() {
                               alt=""
                             />
                           </span>
-                          Apply Now
+                          Postulez maintenant
                         </a>
                       </Link>
                     </div>
@@ -462,7 +462,7 @@ function CompanyDetails() {
                               alt=""
                             />
                           </span>
-                          Apply Now
+                          Postulez maintenant
                         </a>
                       </Link>
                     </div>
@@ -549,7 +549,7 @@ function CompanyDetails() {
                               alt=""
                             />
                           </span>
-                          Apply Now
+                          Postulez maintenant
                         </a>
                       </Link>
                     </div>

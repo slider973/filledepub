@@ -116,7 +116,7 @@ function RelatedJobs() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>
@@ -180,7 +180,7 @@ function RelatedJobs() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>
@@ -244,7 +244,7 @@ function RelatedJobs() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>

@@ -9,10 +9,10 @@ function Home4Recruiters() {
           <div className="col-12 d-flex flex-wrap align-items-end justify-content-md-center gap-3">
             <div className="section-title1 text-center">
               <h2>
-                Our Top <span>Recruiters</span>
+                Nos meilleurs <span>Recruteurs</span>
               </h2>
               <p>
-                To choose your trending job dream &amp; to make future bright.
+                Pour choisir l'emploi tendance de vos rêves &amp; afin de rendre votre avenir brillant
               </p>
             </div>
           </div>
@@ -33,7 +33,7 @@ function Home4Recruiters() {
                       <a>Norland Company</a>
                     </Link>
                   </h5>
-                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 35 People</p>
+                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 35 Personnes</p>
                   <p>
                     <img src="assets/images/icon/location.svg" alt="" />{" "}
                     New-York, USA
@@ -47,7 +47,7 @@ function Home4Recruiters() {
                             alt=""
                           />
                         </span>
-                        View Details
+                        Voir les détails.
                       </a>
                     </Link>
                   </div>
@@ -70,7 +70,7 @@ function Home4Recruiters() {
                       <a>XYZ.UI Compan</a>
                     </Link>
                   </h5>
-                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 14 People</p>
+                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 14 Personnes</p>
                   <p>
                     <img src="assets/images/icon/location.svg" alt="" /> Dhaka,
                     Bangladesh
@@ -84,7 +84,7 @@ function Home4Recruiters() {
                             alt=""
                           />
                         </span>
-                        View Details
+                        Voir les détails.
                       </a>
                     </Link>
                   </div>
@@ -107,7 +107,7 @@ function Home4Recruiters() {
                       <a> Bistro-Tech Ltd</a>
                     </Link>
                   </h5>
-                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 15 People</p>
+                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 15 Personnes</p>
                   <p>
                     <img src="assets/images/icon/location.svg" alt="" />{" "}
                     Chicago, Australia
@@ -121,7 +121,7 @@ function Home4Recruiters() {
                             alt=""
                           />
                         </span>
-                        View Details
+                        Voir les détails.
                       </a>
                     </Link>
                   </div>
@@ -144,7 +144,7 @@ function Home4Recruiters() {
                       <a>Tech-Man Hub</a>
                     </Link>
                   </h5>
-                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 55 People</p>
+                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 55 Personnes</p>
                   <p>
                     <img src="assets/images/icon/location.svg" alt="" /> Sylhet,
                     Bangladesh
@@ -158,7 +158,7 @@ function Home4Recruiters() {
                             alt=""
                           />
                         </span>
-                        View Details
+                        Voir les détails.
                       </a>
                     </Link>
                   </div>
@@ -181,7 +181,7 @@ function Home4Recruiters() {
                       <a>Gangster.Hide</a>
                     </Link>
                   </h5>
-                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 66 People</p>
+                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 66 Personnes</p>
                   <p>
                     <img src="assets/images/icon/location.svg" alt="" /> West
                     London, UK
@@ -195,7 +195,7 @@ function Home4Recruiters() {
                             alt=""
                           />
                         </span>
-                        View Details
+                        Voir les détails.
                       </a>
                     </Link>
                   </div>
@@ -218,7 +218,7 @@ function Home4Recruiters() {
                       <a>Evalley.XYZ0</a>
                     </Link>
                   </h5>
-                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 33 People</p>
+                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 33 Personnes</p>
                   <p>
                     <img src="assets/images/icon/location.svg" alt="" /> Sylhet,
                     Bangladesh
@@ -232,7 +232,7 @@ function Home4Recruiters() {
                             alt=""
                           />
                         </span>
-                        View Details
+                        Voir les détails.
                       </a>
                     </Link>
                   </div>
@@ -255,7 +255,7 @@ function Home4Recruiters() {
                       <a>UI.UX Group Ltd</a>
                     </Link>
                   </h5>
-                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 35 People</p>
+                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 35 Personnes</p>
                   <p>
                     <img src="assets/images/icon/location.svg" alt="" /> Dhaka,
                     Bangladesh
@@ -269,7 +269,7 @@ function Home4Recruiters() {
                             alt=""
                           />
                         </span>
-                        View Details
+                        Voir les détails.
                       </a>
                     </Link>
                   </div>
@@ -292,7 +292,7 @@ function Home4Recruiters() {
                       <a>Marko Land Company</a>
                     </Link>
                   </h5>
-                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 18 People</p>
+                  <p><img src="assets/images/icon/person-2.svg" alt=""/> 18 Personnes</p>
                   <p>
                     <img src="assets/images/icon/location.svg" alt="" />{" "}
                     New-York, USA
@@ -306,7 +306,7 @@ function Home4Recruiters() {
                             alt=""
                           />
                         </span>
-                        View Details
+                        Voir les détails.
                       </a>
                     </Link>
                   </div>
@@ -320,7 +320,7 @@ function Home4Recruiters() {
             <div className="explore-btn">
               <Link legacyBehavior href="/job-listing1">
                 <a>
-                  View All Recruiters{" "}
+                  Voir tous les recruteurs.{" "}
                   <span>
                     <img src="assets/images/icon/explore-elliose.svg" alt="" />
                   </span>

@@ -60,7 +60,7 @@ function Banner1() {
                 Your Career’s <span>&nbsp;Opportunity.</span>
               </h1>
               <p>
-                <span>2400</span> Peoples are daily search in this portal,&nbsp;
+                <span>2400</span> Personness are daily search in this portal,&nbsp;
                 <span>100</span> user added job portal!
               </p>
               <div className="counter-area">

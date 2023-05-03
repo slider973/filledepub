@@ -8,9 +8,9 @@ function Home5Category() {
         <div className="row mb-60">
           <div className="col-12 d-flex justify-content-center">
             <div className="section-title3 text-center">
-              <h2>Jobs Category List</h2>
+              <h2>Liste des catégories d'emplois</h2>
               <p>
-                To choose your trending job dream &amp; to make future bright.
+                Pour choisir votre emploi tendance de rêve &amp;  afin de rendre votre avenir brillant.
               </p>
             </div>
           </div>

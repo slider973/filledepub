@@ -128,7 +128,7 @@ function FeaturedJobs() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>
@@ -207,7 +207,7 @@ function FeaturedJobs() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>
@@ -287,7 +287,7 @@ function FeaturedJobs() {
                           alt=""
                         />
                       </span>
-                      Apply Now
+                      Postulez maintenant
                     </a>
                   </Link>
                 </div>

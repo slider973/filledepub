@@ -9,13 +9,13 @@ function Footer5() {
           <div className="col-lg-3 col-md-4 col-sm-6 mb--50 d-flex justify-content-sm-start justify-content-center">
             <div className="footer-widget">
               <div className="widget-title">
-                <h5>About Company</h5>
+                <h5>À propos de nous</h5>
               </div>
               <div className="menu-container">
                 <ul>
                   <li>
                     <a href="contact.html">
-                      Contact Us <i className="bx bx-up-arrow-alt" />
+                      Nous contacter <i className="bx bx-up-arrow-alt" />
                     </a>
                   </li>
                   <li>

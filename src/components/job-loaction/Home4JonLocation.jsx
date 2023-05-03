@@ -9,16 +9,16 @@ function Home4JonLocation() {
           <div className="col-12 d-flex flex-wrap align-items-end justify-content-md-between justify-content-start gap-3">
             <div className="section-title1">
               <h2>
-                Job By Your <span>Location</span>
+                Emploi selon votre <span>emplacement</span>
               </h2>
               <p>
-                To choose your trending job dream &amp; to make future bright.
+                Pour choisir l'emploi tendance de vos rêves &amp; afin de rendre votre avenir brillant.
               </p>
             </div>
             <div className="explore-btn">
               <Link legacyBehavior href="/job-listing1">
                 <a>
-                  View All Location
+                  Voir tout les emplacements
                   <span>
                     <img src="assets/images/icon/explore-elliose.svg" alt="" />
                   </span>
@@ -46,7 +46,7 @@ function Home4JonLocation() {
                     </Link>
                   </h4>
                   <p>
-                    Job Available: <span>33</span>
+                    Emploi Disponible: <span>33</span>
                   </p>j
                 </div>
               </div>
@@ -67,7 +67,7 @@ function Home4JonLocation() {
                     </Link>
                   </h4>
                   <p>
-                    Job Available: <span>38</span>
+                    Emploi Disponible: <span>38</span>
                   </p>
                 </div>
               </div>
@@ -91,7 +91,7 @@ function Home4JonLocation() {
                     </Link>
                   </h4>
                   <p>
-                    Job Available: <span>66</span>
+                    Emploi Disponible: <span>66</span>
                   </p>
                 </div>
               </div>
@@ -112,7 +112,7 @@ function Home4JonLocation() {
                     </Link>
                   </h4>
                   <p>
-                    Job Available: <span>55</span>
+                    Emploi Disponible: <span>55</span>
                   </p>
                 </div>
               </div>
@@ -133,7 +133,7 @@ function Home4JonLocation() {
                     </Link>
                   </h4>
                   <p>
-                    Job Available: <span>76</span>
+                    Emploi Disponible: <span>76</span>
                   </p>
                 </div>
               </div>
@@ -157,7 +157,7 @@ function Home4JonLocation() {
                     </Link>
                   </h4>
                   <p>
-                    Job Available: <span>32</span>
+                    Emploi Disponible: <span>32</span>
                   </p>
                 </div>
               </div>

@@ -92,7 +92,7 @@ function Home2Feature() {
                             alt=""
                           />
                         </span>
-                        Apply Now
+                        Postulez maintenant
                       </a>
                     </Link>
                   </div>
@@ -172,7 +172,7 @@ function Home2Feature() {
                             alt=""
                           />
                         </span>
-                        Apply Now
+                        Postulez maintenant
                       </a>
                     </Link>
                   </div>
@@ -251,7 +251,7 @@ function Home2Feature() {
                             alt=""
                           />
                         </span>
-                        Apply Now
+                        Postulez maintenant
                       </a>
                     </Link>
                   </div>
@@ -331,7 +331,7 @@ function Home2Feature() {
                             alt=""
                           />
                         </span>
-                        Apply Now
+                        Postulez maintenant
                       </a>
                     </Link>
                   </div>

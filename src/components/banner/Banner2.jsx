@@ -59,7 +59,7 @@ function Banner2() {
                   To Choose Your Level Best&nbsp; <span>Dream Career.</span>
                 </h1>
                 <p>
-                  <span>2400</span> Peoples are daily search in this portal,{" "}
+                  <span>2400</span> Personness are daily search in this portal,{" "}
                   <span>100</span> user added job portal!
                 </p>
                 <div className="job-search-area">
@@ -180,7 +180,7 @@ function Banner2() {
                           </div>
                         </li>
                       </ul>
-                      <p>Peoples Joined!</p>
+                      <p>Personness Joined!</p>
                     </div>
                   </div>
                 </div>

@@ -192,7 +192,7 @@ function Header3() {
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/index4">
+                    <Link legacyBehavior href="/index">
                       <a>Home Four</a>
                     </Link>
                   </li>

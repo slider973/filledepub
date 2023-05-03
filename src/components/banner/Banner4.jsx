@@ -53,7 +53,7 @@ function Banner4() {
   return (
     <div className="hero4">
       <div className="scroll-down-btn">
-        <a href="#home4-category">Scroll Down</a>
+        <a href="#home4-category">Défiler vers le bas</a>
       </div>
       <div className="hero-wapper">
         <div className="container-fluid">
@@ -61,16 +61,17 @@ function Banner4() {
             <div className="col-xl-7 col-lg-12 d-flex align-items-center">
               <div className="hero-content">
                 <h1>
-                  To The Make Sure Job <span>Opportunity.</span>
+                  Pour être sûr de l'opportunité <span>d'emploi.</span>
                 </h1>
                 <p>
-                  <span>2400</span> Peoples are daily search in this portal,{" "}
-                  <span>100</span> user added job portal!
+                  <span>2400</span> Les gens effectuent des recherches quotidiennes sur ce portail,{" "}
+                  <br/>
+                  <span>100</span> Portail d'emploi ajouté par l'utilisateur !
                 </p>
                 <div className="job-search-area">
                   <form>
                     <div className="form-inner job-title">
-                      <input type="text" placeholder="Job Title" />
+                      <input type="text" placeholder="Titre de l'emploi" />
                     </div>
                     <div className="form-inner category">
                       <Select
@@ -92,13 +93,13 @@ function Banner4() {
                         menuColor="#333"
                         defaultValue={selectedOption}
                         options={options}
-                        placeholder="Select"
+                        placeholder="Selectionner"
                       />
                     </div>
                     <div className="form-inner">
                       <button type="submit" className="primry-btn-2 ">
                         <img src="assets/images/icon/search-icon.svg" alt="" />{" "}
-                        24 Jobs
+                        24 Emplois
                       </button>
                     </div>
                   </form>
@@ -106,7 +107,7 @@ function Banner4() {
                 <div className="suggest-tag">
                   <h6>
                     <i className="bi bi-bookmark-fill" />
-                    Suggested Tag:
+                    Tag suggéré:
                   </h6>
                   <ul>
                     <li>

@@ -994,8 +994,8 @@
 .bi-pentagon-fill::before { content: "\f4cc"; }
 .bi-pentagon-half::before { content: "\f4cd"; }
 .bi-pentagon::before { content: "\f4ce"; }
-.bi-people-fill::before { content: "\f4cf"; }
-.bi-people::before { content: "\f4d0"; }
+.bi-Personnes-fill::before { content: "\f4cf"; }
+.bi-Personnes::before { content: "\f4d0"; }
 .bi-percent::before { content: "\f4d1"; }
 .bi-person-badge-fill::before { content: "\f4d2"; }
 .bi-person-badge::before { content: "\f4d3"; }

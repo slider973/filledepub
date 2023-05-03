@@ -87,10 +87,10 @@ function Home4Feedback() {
           <div className="col-12 d-flex flex-wrap align-items-end justify-content-md-between justify-content-start gap-3">
             <div className="section-title1">
               <h2>
-                <span>Feedback</span> From Our Clients
+                <span>Avis</span> de nos clients.
               </h2>
               <p>
-                To choose your trending job dream &amp; to make future bright.
+                Pour choisir l'emploi tendance de vos rêves &amp; afin de rendre votre avenir brillant.
               </p>
             </div>
             <div className="swiper-btn1 d-flex align-items-center">
@@ -120,9 +120,9 @@ function Home4Feedback() {
                     </svg>
                   </div>
                   <p>
-                    On the other hand, we denounce with righteous indignation
-                    and to the dislike men who are so the beguiled and
-                    demoralized.
+                    D'un autre côté, nous dénonçons avec indignation
+                    les hommes qui sont si trompés et démoralisés,
+                    et qui causent ainsi du déplaisir.
                   </p>
                   <div className="author-name-deg">
                     <h5>Mr. Jacoline Frankly</h5>
@@ -144,9 +144,9 @@ function Home4Feedback() {
                     </svg>
                   </div>
                   <p>
-                    On the other hand, we denounce with righteous indignation
-                    and to the dislike men who are so the beguiled and
-                    demoralized.
+                    D'un autre côté, nous condamnons avec une indignation juste
+                    les hommes qui sont ainsi trompés et démoralisés,
+                    et qui causent du déplaisir
                   </p>
                   <div className="author-name-deg">
                     <h5>Mr. Robertson Maike</h5>
@@ -168,9 +168,9 @@ function Home4Feedback() {
                     </svg>
                   </div>
                   <p>
-                    On the other hand, we denounce with righteous indignation
-                    and to the dislike men who are so the beguiled and
-                    demoralized.
+                    D'un autre côté, nous dénonçons avec indignation
+                    les hommes qui sont si trompés et démoralisés,
+                    et qui causent ainsi du déplaisir.
                   </p>
                   <div className="author-name-deg">
                     <h5>David Williumson </h5>

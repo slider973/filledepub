@@ -73,7 +73,7 @@ function Bookmark() {
                     </Link>
                   </td>
                   <td data-label="Action">
-                    <button className="view-btn">Apply Now</button>
+                    <button className="view-btn">Postulez maintenant</button>
                   </td>
                 </tr>
                 <tr>
@@ -126,7 +126,7 @@ function Bookmark() {
                     </Link>
                   </td>
                   <td data-label="Action">
-                    <button className="view-btn">Apply Now</button>
+                    <button className="view-btn">Postulez maintenant</button>
                   </td>
                 </tr>
                 <tr>
@@ -178,7 +178,7 @@ function Bookmark() {
                     </Link>
                   </td>
                   <td data-label="Action">
-                    <button className="view-btn">Apply Now</button>
+                    <button className="view-btn">Postulez maintenant</button>
                   </td>
                 </tr>
                 <tr>
@@ -231,7 +231,7 @@ function Bookmark() {
                     </Link>
                   </td>
                   <td data-label="Action">
-                    <button className="view-btn">Apply Now</button>
+                    <button className="view-btn">Postulez maintenant</button>
                   </td>
                 </tr>
                 <tr>
@@ -284,7 +284,7 @@ function Bookmark() {
                     </Link>
                   </td>
                   <td data-label="Action">
-                    <button className="view-btn">Apply Now</button>
+                    <button className="view-btn">Postulez maintenant</button>
                   </td>
                 </tr>
               </tbody>

@@ -45,7 +45,7 @@ function TrustedCompany1() {
         <div className="row">
           <div className="col-lg-12">
             <div className="section-title">
-              <h5>Our Trusted Company</h5>
+              <h5>Notre entreprise de confiance</h5>
             </div>
             <Swiper {...slider} className="swiper trusted-company-slider">
               <div className="swiper-wrapper">

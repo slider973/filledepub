@@ -13,7 +13,7 @@ function Banner3() {
                   To Choose <span>Right Jobs.</span>
                 </h1>
                 <p>
-                  <span>2400</span> Peoples are daily search in this portal,
+                  <span>2400</span> Personness are daily search in this portal,
                   &nbsp;<span>100</span> user added job portal!
                 </p>
                 <div className="job-search-area">
@@ -90,7 +90,7 @@ function Banner3() {
                       </div>
                     </li>
                   </ul>
-                  <p>To Much People Have Connected With Us!</p>
+                  <p>To Much Personnes Have Connected With Us!</p>
                 </div>
               </div>
             </div>

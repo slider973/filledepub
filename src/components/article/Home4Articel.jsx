@@ -9,10 +9,10 @@ function Home4Articel() {
           <div className="col-12 d-flex flex-wrap align-items-end justify-content-md-between justify-content-start gap-3">
             <div className="section-title1">
               <h2>
-                Our Recent <span>Article</span>
+                Nos Récent <span>Article</span>
               </h2>
               <p>
-                To much valuable feed from our trusted users in world-wide.{" "}
+                Nous avons reçu des commentaires précieux de nos utilisateurs de confiance à travers le monde.{" "}
               </p>
             </div>
           </div>
@@ -46,8 +46,7 @@ function Home4Articel() {
                 <h4>
                   <Link legacyBehavior href="/blog-details">
                     <a>
-                      To Be Continue Redesign &amp; Build Up Your Career
-                      Opportunity.{" "}
+                      Nous continuons à réorganiser et à améliorer les opportunités de carrière pour vous.{" "}
                     </a>
                   </Link>
                 </h4>
@@ -83,8 +82,9 @@ function Home4Articel() {
                 <h4>
                   <Link legacyBehavior href="/blog-details">
                     <a>
-                      To Make Your Smartness &amp; Speak To Smartly In
-                      Interviewing.
+                      Pour que votre intelligence s'exprime de manière &amp;
+                      Intelligente lors des entretiens
+                      d'embauche.
                     </a>
                   </Link>
                 </h4>
@@ -120,8 +120,8 @@ function Home4Articel() {
                 <h4>
                   <Link legacyBehavior href="/blog-details">
                     <a>
-                      How To Improve Your Skills &amp; Speak Fluently Any Job
-                      Viva.
+                      Comment améliorer vos compétences &amp;
+                      parler couramment lors de n'importe quelle entrevue d'emploi.
                     </a>
                   </Link>
                 </h4>
