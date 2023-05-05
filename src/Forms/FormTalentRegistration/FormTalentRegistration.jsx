@@ -107,24 +107,6 @@ function FormTalentRegistration(props) {
                         </div>
                         <div className="col-md-6">
                             <div className="form-inner mb-25">
-                                <label htmlFor="username">Nom d'utilisateur*</label>
-                                <div className="input-area">
-                                    <img
-                                        src="assets/images/icon/user-2.svg"
-                                        alt=""
-                                    />
-                                    <Field
-                                        type="text"
-                                        id="username"
-                                        name="username"
-                                        placeholder="robertjonson"
-                                    />
-                                    <ErrorMessage name="username" component="div"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6">
-                            <div className="form-inner mb-25">
                                 <label htmlFor="email">Email*</label>
                                 <div className="input-area">
                                     <img

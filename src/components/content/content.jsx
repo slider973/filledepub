@@ -2,6 +2,7 @@ import {Container, Typography} from "@mui/material";
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import React from "react";
+import Link from "next/link";
 
 const Content = () => {
     return (
@@ -28,19 +29,23 @@ const Content = () => {
                 gap: 20,
                 WebkitGap: 20
             }}>
-                    <Button variant="contained" size="large" style={{
+                <Link legacyBehavior href="/register">
+                    <Button variant="contained" disableElevation={true} size="large" style={{
                         padding: 15,
                         width: 300,
-                        fontSize: 20,
+                        fontSize: 15,
                         color: 'white',
                         fontFamily: 'Exo 2',
                     }}>M'inscrire</Button>
-                    <Button variant="contained" size="large" style={{
+                </Link>
+                <Link legacyBehavior href="/login">
+                    <Button variant="contained" disableElevation={true} size="large" style={{
                         padding: 15,
                         width: 300,
-                        fontSize: 20,
+                        fontSize: 15,
                         color: 'white',
                     }}>Me connecter</Button>
+                </Link>
             </Box>
         </Container>)
 
