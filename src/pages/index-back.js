@@ -12,7 +12,6 @@ import Header4 from "../components/header/Header4";
 import Home4JonLocation from "../components/job-loaction/Home4JonLocation";
 import Home4Recruiters from "../components/top-recruiters/Home4Recruiters";
 import Home4TrustedCompany from "../components/trusted-company/Home4TrustedCompany";
-import Content from "../components/content/content";
 
 function Index() {
   const currentPage = useRouter().pathname;
@@ -37,7 +36,17 @@ function Index() {
           sizes="20x20"
         />
       </Head>
-        <Content/>
+      <Header4 />
+      <Banner4 />
+      <Home4Category />
+      <Home4Feature />
+      <Home4Counter />
+      <Home4JonLocation />
+      <Home4Feedback />
+      <Home4TrustedCompany />
+      <Home4Recruiters />
+      <Home4Articel />
+      <Footer />
     </>
   );
 }
