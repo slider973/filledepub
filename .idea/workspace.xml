@@ -37,6 +37,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/formik/dist/Formik.d.ts" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,34 +49,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "18.15.0",
-    "javascript.nodejs.core.library.typings.version": "18.15.0",
-    "last_opened_file_path": "C:/Users/jlemaine/Desktop/filledepub/src/pages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\jlemaine\\Desktop\\filledepub\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/jonathan/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4345.14/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.15.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jlemaine/Desktop/filledepub/src/Forms/FormTalentEditResume&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\jlemaine\\Desktop\\filledepub\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jlemaine\Desktop\filledepub\src\Forms\FormTalentEditResume" />
       <recent name="C:\Users\jlemaine\Desktop\filledepub\src\pages" />
       <recent name="C:\Users\jlemaine\Desktop\filledepub\public\assets\images\bg" />
       <recent name="$PROJECT_DIR$" />
@@ -84,6 +88,9 @@
       <recent name="$PROJECT_DIR$/src/Forms" />
       <recent name="C:\Users\jlemaine\Desktop\filledepub\src\Forms\FormTalentRegistration" />
       <recent name="C:\Users\jlemaine\Desktop\filledepub\src" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="C:\Users\jlemaine\Desktop\filledepub\src\Forms\FormTalentEditResume\GroupeQuestion.jsx" />
     </key>
   </component>
   <component name="RunManager">
@@ -140,7 +147,25 @@
       <workItem from="1682861996103" duration="308000" />
       <workItem from="1682862358086" duration="21704000" />
       <workItem from="1683135177336" duration="12838000" />
-      <workItem from="1683269347447" duration="11023000" />
+      <workItem from="1683269347447" duration="11740000" />
+      <workItem from="1683665868744" duration="7948000" />
+      <workItem from="1683704955168" duration="8000" />
+      <workItem from="1683748055504" duration="227000" />
+      <workItem from="1683748431877" duration="810000" />
+      <workItem from="1683970600630" duration="220000" />
+      <workItem from="1683970864098" duration="31000" />
+      <workItem from="1683971106915" duration="21398000" />
+      <workItem from="1684334210031" duration="965000" />
+      <workItem from="1684347854912" duration="8787000" />
+      <workItem from="1684485502187" duration="685000" />
+      <workItem from="1684486291588" duration="1196000" />
+      <workItem from="1684511218645" duration="29609000" />
+      <workItem from="1684786524812" duration="74000" />
+      <workItem from="1684786646951" duration="1657000" />
+      <workItem from="1684823693185" duration="250000" />
+      <workItem from="1685196942195" duration="1464000" />
+      <workItem from="1685343170646" duration="74000" />
+      <workItem from="1685343281118" duration="7199000" />
     </task>
     <task id="LOCAL-00001" summary="init new projet">
       <created>1682703568109</created>

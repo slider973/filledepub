@@ -24,7 +24,7 @@ function handleOnSubmit(router) {
         const createTalent = (uid) => ({
             uid,
             lastname: values.lastname,
-            username: values.username,
+            username: `${values.firstname.substring(0, 1)}.${values.lastname}`,
             firstname: values.firstname,
             email: values.email,
             password: values.password,
@@ -41,10 +41,11 @@ function handleOnSubmit(router) {
             username: user.username,
             firstname: user.firstname,
             email: user.email,
+            userType: user.profileType,
         }).then(
             () => {
                 setSubmitting(false);
-                return router.push("/candidates-dashboard/my-profile")
+                return router.push("/onboarding/talent")
             }
         )
 

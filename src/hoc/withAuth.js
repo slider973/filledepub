@@ -14,6 +14,6 @@ export const withAuth = (WrappedComponent) => {
             }
         }, [user]);
 
-        return <WrappedComponent {...props} />;
+        return <WrappedComponent uid={user.uid}  {...props} />;
     };
 };

@@ -30,7 +30,7 @@ export default async function addData(collectionName, id, data, subCollection = 
         }
     } catch (e) {
         error = e;
-        console.log(e)
+        throw error
     }
 
     return { result, error };

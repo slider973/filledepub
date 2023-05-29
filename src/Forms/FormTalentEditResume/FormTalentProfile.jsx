@@ -1,90 +1,100 @@
-import DatePicker from "react-datepicker";
-import CreatableSelect from "react-select/creatable";
 import * as PropTypes from "prop-types";
-import React from "react";
-import {Box, Button, Checkbox, Step, StepLabel, Stepper, Typography} from "@mui/material";
-import {label} from "yet-another-react-lightbox/core";
+import React, {useState} from "react";
+import {Box, Button, Step, StepLabel, Stepper, Typography} from "@mui/material";
 import {useFormik} from "formik";
 import Questionnaire from "../../components/candidates/Questionnaire";
+import {
+    groupeQuestion1,
+    groupeQuestion2,
+    groupeQuestion3,
+    groupeQuestion4,
+    groupeQuestion5,
+    groupeQuestion6,
+    groupeQuestion7
+} from "./GroupeQuestion";
+import addData from "../../firebase/addData";
+import {useRouter} from "next/router";
 
 const components = {
     DropdownIndicator: null,
     IndicatorsContainer: () => null,
 };
 
-const groupeQuestion1 = [
-    {
-        question:
-            "Lorsque tu commences un grand projet qui doit être rendu dans une semaine",
-        answers: [
-            "Prends-tu le temps de faire une liste des différentes choses à réaliser et de l’ordre dans lequel elles doivent être effectuées ?",
-            "Tu te lances immédiatement ?",
-        ],
-    }, {
-        question:
-            "Es-tu plus susceptible de faire :",
-        answers: [
-            "Des éloges ?",
-            "Des reproches ?",
-        ],
 
-    },
-    {
-        question:
-            "En général, tu :",
-        answers: [
-            "Exprime librement tes sentiments ?",
-            "Garde tes sentiments pour toi ?",
-        ],
+const getInitialValues = () => {
+    const allQuestions = [
+        ...groupeQuestion1,
+        ...groupeQuestion2,
+        ...groupeQuestion3,
+        ...groupeQuestion4,
+        ...groupeQuestion5,
+        ...groupeQuestion6,
+        ...groupeQuestion7,
+    ];
 
-    }, {
-        question:
-            "Lorsque ce que tu dois faire est prévu depuis longtemps, tu :",
-        answers: [
-            "Apprécie de pouvoir t'organiser en conséquence ?",
-            "Trouve cela désagréable d’être ainsi lié ?",
-        ],
+    return allQuestions.reduce((acc, question, index) => {
 
-    }, {
-        question:
-            "Penses-tu que c’est un plus grand défaut d’être :",
-        answers: [
-            "Antipathique ?",
-            "Déraisonnable ?",
-        ],
+        acc[question.question.idQuestion] = {
+            question: question.question.name,
+            answers: ""
+        }
 
-    }
-    , {
-        question:
-            "Lorsque des inconnus te remarquent :",
-        answers: [
-            "Tu te sents mal à l’aise ?",
-            "Cela ne te déranges du tout ?",
-        ],
+        return acc;
+    }, {})
+};
 
-    },
-    {
-        question:
-            "Si tu étais sur le point d'accomplir une tâche, à quel argument serais-tu le plus sensible ?",
-        answers: [
-            "C’est ce qu'on attend vraiment de toi ?",
-            "C’est ce qui te semble le plus logique ?",
-        ],
 
-    },
-];
+
 
 function FormTalentProfile(props) {
+    const router = useRouter();
+    const uid = props.uid;
+
+    const [formValues, setFormValues] = useState({
+        ...getInitialValues(),
+    });
+    const handleChange = (event, answer) => {
+        if (event.target.checked) {
+            setFormValues({
+                            ...formValues,
+                            [event.target.name]: {
+                                ...formValues[event.target.name],
+                                answers: answer
+                            }
+                        });
+            return;
+        }
+        setFormValues({
+            ...formValues,
+            [event.target.name]: {
+                ...formValues[event.target.name],
+                answers: ""
+            }
+        });
+    };
     const formik = useFormik({
         initialValues: {
-            email: 'foobar@example.com',
-            password: 'foobar',
+            ...getInitialValues(),
         },
-        onSubmit: (values) => {
-            alert(JSON.stringify(values, null, 2));
+        onSubmit: (values, {setSubmitting }) => {
+            console.log("je valide avec c est donner:", formValues)
+            let answersMbt = [];
+            for (let key in formValues) {
+                answersMbt.push(formValues[key]);
+            }
+            addData("talents", uid, {
+                answersMbt
+            }).then(
+                () => {
+                    setSubmitting(false);
+                    return router.push("/breif")
+                }
+            )
+           // alert(JSON.stringify(values, null, 2));
         },
     });
-    const steps = ['Groupe de question 1', 'Groupe de question 2', 'Groupe de question 3'];
+
+    const steps = ['1', '2', '3','4','5','6','7'];
     const [activeStep, setActiveStep] = React.useState(0);
     const [skipped, setSkipped] = React.useState(new Set());
 
@@ -127,7 +137,7 @@ function FormTalentProfile(props) {
     };
 
 
-    return <form className="edit-profile-form profile-form  mb-60">
+    return <form className="edit-profile-form profile-form  mb-60" onSubmit={formik.handleSubmit} >
         <Box mb={5} textAlign="center">
             <Typography variant="h6">
                 Quelle est la réponse (A ou B) qui exprime le mieux ta manière habituelle d’agir
@@ -144,7 +154,7 @@ function FormTalentProfile(props) {
                     }
                     return (
                         <Step key={label} {...stepProps}>
-                            <StepLabel {...labelProps}>{label}</StepLabel>
+                            <StepLabel {...labelProps}></StepLabel>
                         </Step>
                     );
                 })}
@@ -152,17 +162,23 @@ function FormTalentProfile(props) {
             {activeStep === steps.length ? (
                 <React.Fragment>
                     <Typography sx={{mt: 2, mb: 1}}>
-                        All steps completed - you&apos;re finished
+                        Le onboarding est terminé !
                     </Typography>
-                    <Box sx={{display: 'flex', flexDirection: 'row', pt: 2}}>
-                        <Box sx={{flex: '1 1 auto'}}/>
-                        <Button onClick={handleReset}>Reset</Button>
-                    </Box>
+                    {/*<Box sx={{display: 'flex', flexDirection: 'row', pt: 2}}>*/}
+                    {/*    <Box sx={{flex: '1 1 auto'}}/>*/}
+                    {/*    <Button>Reset</Button>*/}
+                    {/*</Box>*/}
                 </React.Fragment>
             ) : (
                 <React.Fragment>
                     {
-                        activeStep === 0 && <Questionnaire questions={groupeQuestion1}/>
+                        activeStep === 0 && <Questionnaire questions={groupeQuestion1} handleChange={handleChange} formValues={formValues}/> ||
+                        activeStep === 1 && <Questionnaire questions={groupeQuestion2} handleChange={handleChange} formValues={formValues}/> ||
+                        activeStep === 2 && <Questionnaire questions={groupeQuestion3} handleChange={handleChange} formValues={formValues}/> ||
+                        activeStep === 3 && <Questionnaire questions={groupeQuestion4} handleChange={handleChange} formValues={formValues}/> ||
+                        activeStep === 4 && <Questionnaire questions={groupeQuestion5} handleChange={handleChange} formValues={formValues}/> ||
+                        activeStep === 5 && <Questionnaire questions={groupeQuestion6} handleChange={handleChange} formValues={formValues}/> ||
+                        activeStep === 6 && <Questionnaire questions={groupeQuestion7} handleChange={handleChange} formValues={formValues}/>
                     }
                     <Box sx={{display: 'flex', flexDirection: 'row', pt: 2}}>
                         <Button
@@ -174,15 +190,23 @@ function FormTalentProfile(props) {
                             Retour
                         </Button>
                         <Box sx={{flex: '1 1 auto'}}/>
-                        {isStepOptional(activeStep) && (
-                            <Button color="inherit" onClick={handleSkip} sx={{mr: 1}}>
-                                Passer
-                            </Button>
-                        )}
+                        {/*{isStepOptional(activeStep) && (*/}
+                        {/*    <Button color="inherit" onClick={handleSkip} sx={{mr: 1}}>*/}
+                        {/*        Passer*/}
+                        {/*    </Button>*/}
+                        {/*)}*/}
+                        {
+                            activeStep === steps.length - 1 ?
+                                <Button onClick={formik.handleSubmit} >
+                                    Valider
+                                </Button>
+                                :
+                                <Button onClick={handleNext} >
+                                    Suivant
+                                </Button>
 
-                        <Button onClick={handleNext}>
-                            {activeStep === steps.length - 1 ? 'Terminer' : 'Suivant'}
-                        </Button>
+                        }
+
                     </Box>
                 </React.Fragment>
             )}
