@@ -114,7 +114,7 @@ function FormTalentEditResumeBaseDetail(props) {
             // return errors;
         }}
         onSubmit={async (values, {setSubmitting}) => {
-            alert(JSON.stringify(values, null, 2));
+
             try {
                 await addData('talents', auth.user.uid, {
                     resume: {
